@@ -1,0 +1,1086 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "oddities"
+	group: "50C9D5775BEB220E"
+	icon: "minecraft:nether_star"
+	id: "537C6DB0026E6B7D"
+	images: [
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:textures/icons/star.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: 1.0d
+		}
+	]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4EE395F19A7AC6FF"
+			subtitle: "Используется для автоматической &eторговли&r с ближайшими &6пиглинами.&r Вмещает &6золотые слитки&r и выдаёт предметы обмена."
+			tasks: [{
+				id: "2D4C1E2F839FD674"
+				item: "barteringstation:bartering_station"
+				type: "item"
+			}]
+			title: "Создайте &4станцию для обмена"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			id: "0BE7832F8D2EC88E"
+			subtitle: "Та же функциональность, что и у &eкамнереза&r, но для &eдревесины&r."
+			tasks: [{
+				id: "3B949CD5070988AF"
+				item: "sawmill:sawmill"
+				type: "item"
+			}]
+			title: "Создайте &1лесопилку"
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			id: "370C7BBFD6825460"
+			subtitle: "Можно использовать для поимки маленьких &eживотных&r и &eмобов&r."
+			tasks: [{
+				id: "61506B03AD1D6FA4"
+				item: "supplementaries:cage"
+				type: "item"
+			}]
+			title: "Создайте &5клетку"
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			id: "42D099430EBFAFFC"
+			subtitle: "Действует как улучшенный &eшалкеровый ящик&r, который &eогнеупорен&r. &eСейфы&r можно запирать ключом."
+			tasks: [{
+				id: "46FA4477B1E5F268"
+				item: "supplementaries:safe"
+				type: "item"
+			}]
+			title: "Создайте &7сейф"
+			x: -7.5d
+			y: 4.5d
+		}
+		{
+			id: "30F40E4353F528FB"
+			tasks: [{
+				id: "1E01A7977AF558D5"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:fancy_beds"
+					}
+				}
+				title: "Любая #handcrafted:fancy_beds"
+				type: "item"
+			}]
+			title: "Создайте изысканную кровать"
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			id: "7F00DE181AA0C9C0"
+			tasks: [{
+				id: "1166EA9804E2BE65"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:couches"
+					}
+				}
+				title: "Любой #handcrafted:couches"
+				type: "item"
+			}]
+			title: "Создайте диван"
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			id: "534A26E3F639437B"
+			tasks: [{
+				id: "017E8C046DE719A2"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:chairs"
+					}
+				}
+				title: "Любой #handcrafted:chairs"
+				type: "item"
+			}]
+			title: "Создайте стул"
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			id: "36171301E4641F91"
+			tasks: [{
+				id: "0D0CBEB2CF829F84"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:tables"
+					}
+				}
+				title: "Любой #handcrafted:tables"
+				type: "item"
+			}]
+			title: "Создайте стол"
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			id: "0172BB881A7259C8"
+			tasks: [{
+				id: "438CC4ACF9CF6211"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:wooden_benches"
+					}
+				}
+				title: "Любая #handcrafted:wooden_benches"
+				type: "item"
+			}]
+			title: "Создайте скамейку"
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			id: "77BC75BC0328D7A5"
+			tasks: [{
+				id: "201DD07D39474176"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:nightstands"
+					}
+				}
+				title: "Любая #handcrafted:nightstands"
+				type: "item"
+			}]
+			title: "Создайте прикроватную тумбу"
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			id: "2802A4603874C24B"
+			tasks: [{
+				id: "50E3B3E85E9137E5"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:desks"
+					}
+				}
+				title: "Любой #handcrafted:desks"
+				type: "item"
+			}]
+			title: "Создайте письменный стол"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			id: "5835B89CD2B85989"
+			tasks: [{
+				id: "792F6F6675CECA54"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:side_tables"
+					}
+				}
+				title: "Любой #handcrafted:side_tables"
+				type: "item"
+			}]
+			title: "Создайте приставной стол"
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			disable_toast: true
+			id: "57F291A269AA620E"
+			tasks: [{
+				id: "5261259E75937F0B"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:counters"
+					}
+				}
+				title: "Любая #handcrafted:counters"
+				type: "item"
+			}]
+			title: "Создайте столешницу"
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			id: "76968FA917BBA6E0"
+			subtitle: "Изысканный сундук"
+			tasks: [{
+				id: "49D1A6062EEF6F0D"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:drawers"
+					}
+				}
+				title: "Любой #handcrafted:drawers"
+				type: "item"
+			}]
+			title: "Создайте тумбу"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			id: "01D0C8DB2646FFC9"
+			subtitle: "Изысканный сундук"
+			tasks: [{
+				id: "30BB758D22EF6D2C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:cupboards"
+					}
+				}
+				title: "Любой #handcrafted:cupboards"
+				type: "item"
+			}]
+			title: "Создайте сервант"
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			id: "13B914EA3AE61CFA"
+			subtitle: "Держит книгу"
+			tasks: [{
+				id: "675D7F042E9B0A84"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:shelves"
+					}
+				}
+				title: "Любая #handcrafted:shelves"
+				type: "item"
+			}]
+			title: "Создайте полку"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			id: "6EF76B3194FFE529"
+			subtitle: "&3Превращает&r любое количество предметов в другие за счёт &aопыта.&r Взрывается при разрушении и роняет &fзвезду Незера."
+			tasks: [{
+				id: "1F47E54ADAE5BCB5"
+				item: "alexsmobs:transmutation_table"
+				type: "item"
+			}]
+			title: "Создайте &aтрансмутационный стол"
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			id: "06F27C7F86FBC564"
+			subtitle: "&cIntegrated Structures&r перерабатывает старые &8крепости&r, делая их более обширными. Используется для поиска &5рамок портала в Энд&r."
+			tasks: [{
+				id: "092337026D40809E"
+				item: {
+					Count: 1
+					id: "alexsmobs:endolocator"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Создайте &bэндалокатор"
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			id: "2FDD6172E8C2140A"
+			subtitle: "Используется для поиска &4чанка \"Дьявольская дыра\""
+			tasks: [{
+				id: "51D0F0965E7474D0"
+				item: {
+					Count: 1
+					id: "alexsmobs:pupfish_locator"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Создайте &3рыбоискатель"
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			id: "70A591213EFAF475"
+			subtitle: "Используется как &4доска для сёрфинга по лаве&r, которая может прыгать и зачаровываться."
+			tasks: [{
+				id: "694519243F2ABB20"
+				item: {
+					Count: 1
+					id: "alexsmobs:straddleboard"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Создайте &5страддлборд"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			id: "5061F2F7FB54F3D0"
+			subtitle: "Этот компас позволяет вам искать любой &2биом."
+			tasks: [{
+				id: "1AB4700BD15535AC"
+				item: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Создайте &aкомпас природы"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			id: "009EC4156DE356FD"
+			subtitle: "Используется для &9телепортации&r. &6Перезарядка&r 3 минуты."
+			tasks: [{
+				id: "6F0C998388FF9F57"
+				item: "tempad:tempad"
+				type: "item"
+			}]
+			title: "Создайте &6темпад"
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			id: "6E4F1BC09EF9E17D"
+			subtitle: "Используется для &5снятия чар&r с предметов. Прочтите руководство по зачарованию для получения дополнительной информации."
+			tasks: [{
+				id: "1DE37F41351A94D7"
+				item: "create_enchantment_industry:disenchanter"
+				type: "item"
+			}]
+			title: "Создайте &5чаросъёмник"
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			id: "09723CAF8D28FD0D"
+			rewards: [{
+				id: "1092E1AAD9ED36FF"
+				item: "sophisticatedbackpacks:crafting_upgrade"
+				type: "item"
+			}]
+			subtitle: "Вы можете размещать &eрюкзак&r в мире, раскрашивать в разные &cцветовые комбинации&r, улучшать, добавляя больше инвентаря, и усиливать множеством &aфункциональных улучшений&r."
+			tasks: [{
+				id: "3568A217CFF34D19"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			title: "Создайте &cрюкзак"
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			id: "2B318DE3A3F05557"
+			rewards: [{
+				count: 2
+				id: "34656891B76DEC18"
+				item: "quark:gunpowder_sack"
+				type: "item"
+			}]
+			subtitle: "Создавайте оружие, обвесы и патроны."
+			tasks: [{
+				id: "2041A02DAD942D34"
+				item: "scguns:gun_bench"
+				type: "item"
+			}]
+			title: "Создайте &6оружейный верстак"
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			id: "0B18C0484CD23A54"
+			subtitle: "Всё хранилище в одном месте. В основном размещается на &6инвентарном коннектере&r."
+			tasks: [{
+				id: "1256210DEDE1FF6D"
+				item: "toms_storage:ts.storage_terminal"
+				type: "item"
+			}]
+			title: "Создайте &eтерминал хранилища"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			id: "43D20403034070BD"
+			subtitle: "Торгуйте с игроками"
+			tasks: [{
+				id: "161CC07F9EE15FAD"
+				item: "toms_trading_network:vending_machine"
+				type: "item"
+			}]
+			title: "Создайте &aторговый автомат"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			description: ["Требуется маяк &21-го уровня&r для беспроводного доступа в том же измерении. Уровень &24 для межпространственного использования."]
+			id: "3B8A3866892A896A"
+			subtitle: "Используйте своё &bхранилище&r из любого места! (Не забудьте &9принудительно прогрузить чанк с хранилищем&r) &lНажмите на &dквест&r для получения более важной информации."
+			tasks: [{
+				id: "2194F269B4A390F1"
+				item: "toms_storage:ts.adv_wireless_terminal"
+				type: "item"
+			}]
+			title: "Создайте &6улучшенный беспроводной терминал"
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			id: "587CB5DB37C01733"
+			tasks: [{
+				id: "037CE3799764319D"
+				item: {
+					Count: 1
+					id: "create_dd:deforester_saw"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Создайте &6пилу для вырубки леса"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			id: "6214B22DFC054284"
+			tasks: [{
+				id: "278B7F396A9B510F"
+				item: "cccbridge:animatronic_block"
+				type: "item"
+			}]
+			title: "Создайте &9аниматроника"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			id: "4B5754AC57713F11"
+			tasks: [{
+				id: "345A468470191105"
+				item: "chipped:botanist_workbench"
+				type: "item"
+			}]
+			title: "Создайте &aверстак ботаника"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			id: "3ADC11C6BA771C86"
+			tasks: [{
+				id: "541D412DCDA8DDAF"
+				item: "chipped:glassblower"
+				type: "item"
+			}]
+			title: "Создайте &7стеклодувный стол"
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			id: "6179E94A73B07392"
+			tasks: [{
+				id: "7C26A79A5BB7569A"
+				item: "chipped:carpenters_table"
+				type: "item"
+			}]
+			title: "Создайте &6стол плотника"
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			id: "024E47494F783376"
+			tasks: [{
+				id: "0A61CDFCD13EBC7B"
+				item: "chipped:mason_table"
+				type: "item"
+			}]
+			title: "Создайте &8стол каменщика"
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			id: "7726BC988874A1C3"
+			tasks: [{
+				id: "7221E5F4A7A6735D"
+				item: "chipped:loom_table"
+				type: "item"
+			}]
+			title: "Создайте &9ткацкий стол"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "3BFC6E6A9A3343D3"
+			tasks: [{
+				id: "46F0FAC9CACC454E"
+				item: "chipped:alchemy_bench"
+				type: "item"
+			}]
+			title: "Создайте &cалхимический стол"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			id: "146B3B3D49F0E898"
+			tasks: [{
+				id: "1F73600E706F3567"
+				item: "chipped:tinkering_table"
+				type: "item"
+			}]
+			title: "Создайте &4стол для починки"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			id: "1A9D4D664FAC1E2B"
+			subtitle: "Может срубать целые деревья."
+			tasks: [{
+				id: "66B3B6E9C049043E"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			title: "Создайте &eмеханическую пилу"
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			description: [""]
+			id: "14A2D10D3AB49DF1"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "387E17699CAED402"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Можно использовать для документирования ваших знаний о редких пещерных биомах"
+			tasks: [{
+				id: "6FB45590943CDE72"
+				item: "alexscaves:cave_book"
+				type: "item"
+			}]
+			title: "Создайте &6пещерный путеводитель"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			id: "7F0040F89A1D3615"
+			tasks: [{
+				id: "2960E18A0C4C92E2"
+				item: {
+					Count: 1
+					id: "create_dd:excavation_drill"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Создайте &6землеройный бур"
+			x: 0.0d
+			y: -0.5d
+		}
+	]
+	title: " &fДиковинки&f"
+}

@@ -1,0 +1,502 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "thin_air__cold_sweat"
+	group: "39BD55737A7439A2"
+	icon: "cold_sweat:thermometer"
+	id: "6370C852BD4C2AF5"
+	images: [
+		{
+			height: 1.0d
+			image: "cold_sweat:block/boiler_front_lit"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/boiler_front_lit"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/boiler_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/boiler_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/boiler_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/boiler_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/boiler_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/icebox_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/icebox_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/icebox_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/icebox_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/icebox_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/icebox_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/icebox_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/icebox_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/icebox_side_frosted"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/icebox_side_frosted"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/icebox_side_frosted"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/icebox_side_frosted"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/icebox_side_frosted"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/icebox_side_frosted"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/icebox_side_frosted"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/boiler_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/boiler_bottom"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -0.5d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "30E7C0BD4E574231"
+			rewards: [{
+				id: "0AFD8E0832D46509"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			subtitle: "Для сборки вам понадобятся перечисленные выше предметы."
+			tasks: [
+				{
+					id: "3C6F9C2FDC7DE920"
+					item: "create:water_wheel"
+					type: "item"
+				}
+				{
+					id: "663D6C2A4FA02880"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "1B7EA3424A48C2C7"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					id: "5E8AD6CBB24C660D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "create:copper_diving_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5FFBBC039B99CD38"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": {
+								Insulation: [ ]
+							}
+						}
+						id: "create:copper_backtank"
+						tag: {
+							Air: 900
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&bДышите легче"
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			description: ["&bCreate&r предлагает удобный водолазный &bшлем&r и &bмедный баллон&r, которые помогут вам выжить в тёмных глубинах или на вершине горы. Настроить их очень легко, и эта &cлинейка квестов&r вам в этом поможет.&r"]
+			id: "71D82D0A4E9A6A4C"
+			rewards: [
+				{
+					count: 5
+					id: "0050093F677CC4C5"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2878AF90290957C0"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+			]
+			subtitle: "Ниже &cY=0&r и выше &cY=128&r у вас начнёт медленно заканчиваться воздух. Однако решение есть...&r"
+			tasks: [{
+				id: "07A12D7E3ECC1BE1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"cold_sweat:item_insulation": { }
+					}
+					id: "thinair:respirator"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Скрафтите &7респиратор"
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"30E7C0BD4E574231"
+				"71D82D0A4E9A6A4C"
+			]
+			description: [
+				"1. Выкопайте &eяму 3x3&r и поместите &bводяное колесо&r в центр лицом вниз.&r"
+				""
+				"2. Замените один из &9угловых блоков&r и вылейте &3ведро воды&r на этот блок. Колесо должно начать вращаться (направление не имеет значения).&r"
+				""
+				"3. Поместите &a&lвал&r в центр колеса, а на него — &e&lбольшую шестерню&r.&r"
+				""
+				"4. Прикрепите &e&lмалую шестерню&r к &e&lбольшой шестерне&r. Может потребоваться точное прицеливание, но вы увидите её призрак при правильном расположении.&r"
+				""
+				"5. На этом этапе всё должно вращаться. Теперь вы можете подключить &bбаллон&r под &eмалой шестерней&r, и вы увидите, как он начнёт всасывать воздух.&r"
+				""
+				"Вот и всё! &bБаллона&r хватит на 15 минут. Его можно зачаровать на &6Вместимость III&r, что увеличит запас воздуха до 30 минут.&r"
+			]
+			id: "4FD51239317FE960"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4DE1676C69387CDF"
+				table_id: 28026836370523306L
+				type: "random"
+			}]
+			subtitle: "Баллон можно заполнить только с помощью &a&lвала&r, подключённого сверху. Направление вращения не имеет значения.&r"
+			tasks: [{
+				id: "402057F998059E35"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"cold_sweat:item_insulation": {
+							Insulation: [ ]
+						}
+					}
+					id: "create:copper_backtank"
+					tag: {
+						Air: 900
+					}
+				}
+				type: "item"
+			}]
+			title: "Добудьте &6медный баллон"
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			description: ["Передняя часть блока &e&lзагорится&r при наличии подходящего топлива, как у печки; однако &c&lбойлер&r расходует топливо, только когда активно нагревает один или несколько &e&lбурдюков&r, и прекращает работу, как только все они достигнут максимальной температуры в &e&l48 °C&r.&r"]
+			id: "554FC8F643C46697"
+			rewards: [{
+				id: "29BD6231B2B0844D"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			subtitle: "&cБойлер&r — это технический блок, используемый для нагрева &eбурдюков&r (макс. 9). В качестве топлива принимает &fуголь, древесный уголь, угольные блоки, блоки магмы и лаву&r."
+			tasks: [{
+				id: "2639725EE4448B73"
+				item: "cold_sweat:boiler"
+				type: "item"
+			}]
+			title: "Скрафтите &4бойлер"
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			description: ["Когда в &bхолодильник&r помещено подходящее топливо, он будет испускать частицы, а на его сторонах появятся сосульки. Холодильник расходует топливо, только когда активно охлаждает один или несколько &eбурдюков&r, и прекращает работу, как только все они достигнут минимальной температуры в &e21 °C&r.&r"]
+			id: "768BD439E3A8384E"
+			rewards: [{
+				id: "689E2CC6ECD2073B"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			subtitle: "&bХолодильник&r — это технический блок, используемый для охлаждения &eбурдюков&r (макс. 9). В качестве топлива принимает &fснежки, снег, воду, лёд и плотный лёд&r."
+			tasks: [{
+				id: "4B03690201D70098"
+				item: "cold_sweat:icebox"
+				type: "item"
+			}]
+			title: "Скрафтите &bхолодильник"
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"558BB6BD94C602B3"
+				"3448B23DF9F63302"
+			]
+			description: [
+				"&dФонарь душ&r — это предмет, который охлаждает область 9x9 вокруг игрока. Фонарь активируется, только когда игрок находится в &cсмертельной жаре в Незере.&r"
+				""
+				"Он заправляется &dростками душ&r, которые можно выращивать на &7песке/почве душ&r. Они хорошо растут в жарких биомах и при высоких температурах, проще всего выращивать их, разместив рядом &c&lлаву&r.&r"
+				""
+				"Скорость расхода топлива зависит от того, насколько температура мира превышает максимальный порог игрока. Она может составлять от 6 до 18 единиц топлива в минуту. Каждый росток увеличивает запас топлива в фонаре на 4, что означает, что 16 ростков душ могут полностью заправить пустой фонарь."
+			]
+			id: "1612322BF2AA9ED8"
+			rewards: [{
+				count: 8
+				id: "3C98AA139F181AFA"
+				item: "cold_sweat:soul_sprout"
+				type: "item"
+			}]
+			subtitle: "Используется для защиты от жары в &cНезере&r.&r"
+			tasks: [{
+				id: "5C542A516804A895"
+				item: {
+					Count: 1
+					id: "cold_sweat:soulspring_lamp"
+					tag: {
+						fuel: 64.0d
+						isOn: 1b
+					}
+				}
+				type: "item"
+			}]
+			title: "Скрафтите &3фонарь душ"
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"768BD439E3A8384E"
+				"554FC8F643C46697"
+			]
+			description: [
+				"Чтобы использовать их, &a&lнажмите ПКМ&r, держа бурдюк в руке, чтобы облить себя водой. Это мгновенно изменит температуру тела игрока в зависимости от температуры &eбурдюка&r."
+				""
+				"Кроме того, игрок может держать &eбурдюк&r в своей панели быстрого доступа, чтобы он пассивно рассеивал свою температуру. Этот метод намного медленнее, но не расходует воду."
+			]
+			id: "4F2CD9D18AB8D097"
+			rewards: [{
+				id: "6928ECB36AF93944"
+				item: "cold_sweat:thermolith"
+				type: "item"
+			}]
+			subtitle: "Они лучше всего подходят для коротких вылазок. Чтобы подготовить их, сначала наполните водой из любого источника, а затем поместите в &bхолодильник&r или &cбойлер&r.&r"
+			tasks: [{
+				id: "7F13027D955117B7"
+				item: "cold_sweat:waterskin"
+				type: "item"
+			}]
+			title: "Скрафтите &6бурдюк"
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"Очагу требуется укрытие (т. е. закрытая комната) и подходящее топливо, такое как уголь и лава для холодных сред, и снежки, вода и лёд для жаркого климата. Жидкую лаву и воду можно подавать в боковую часть блока для автоматизации."
+				""
+				"Его область действия распространяется от местоположения блока, проходя через все нетвёрдые поверхности и заполняя комнату. Твёрдой поверхностью считается любая грань хитбокса блока, которая полностью покрывает область 16x16. Очаг может воздействовать на 12 000 блоков в радиусе 96 блоков."
+				""
+				"После размещения и заправки он постепенно нагревается, давая ближайшим игрокам эффект \"Изоляция\", который снижает влияние экстремальных температур. Этот эффект достигает максимума на уровне 10 и исчезает, как только игроки покидают радиус действия очага."
+			]
+			id: "558BB6BD94C602B3"
+			rewards: [
+				{
+					id: "7BEFB5FB5CFF8960"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					id: "3B6F2C1AB1A50D5D"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+			]
+			subtitle: "В качестве постоянного решения, например на базе или аванпосте, &c&lочаг&r станет более подходящим средством защиты от стихий. В долгосрочной перспективе он требует гораздо меньше &2&lухода&r и не нуждается в постоянном контроле."
+			tasks: [{
+				id: "64B9040AFC49B0BC"
+				item: "cold_sweat:hearth"
+				type: "item"
+			}]
+			title: "Скрафтите &7очаг"
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"&rЛиньку&r можно получить с &aхамелеонов&r примерно раз в день. Они встречаются в &2джунглях&r, &eпустынях&r и других подобных биомах."
+				""
+				"&rКоз&r можно стричь, и их мех отрастает примерно за день. Их можно найти на &2заснеженных&r и &2каменистых вершинах&r, а также в других подобных биомах."
+			]
+			id: "3448B23DF9F63302"
+			rewards: [{
+				count: 8
+				id: "6B214634320C61CE"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			subtitle: "&c&lШвейный стол&r — это верстак, который используется для объединения любой части брони с термостойкими свойствами &d&lкожи&r, &a&lлиньки хамелеона&r, &6&lшкуры хоглина/кроличьей шкурки&r или &b&lкозий мех&r. Это позволяет броне обеспечивать &dнейтральную&r, &aадаптивную&r, защиту от &6жары&r или &bхолода&r соответственно."
+			tasks: [{
+				id: "046FF7A6457CD3D6"
+				item: "cold_sweat:sewing_table"
+				type: "item"
+			}]
+			title: "Скрафтите &cшвейный стол"
+			x: -2.0d
+			y: -2.0d
+		}
+	]
+	title: "&bThin Air и &9Cold &csweat"
+}

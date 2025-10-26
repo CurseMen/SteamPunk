@@ -1,0 +1,2828 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "8alex_4caves"
+	group: "50C9D5775BEB220E"
+	icon: {
+		Count: 1
+		id: "alexscaves:totem_of_possession"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "471B18E39E1509BD"
+	images: [
+		{
+			height: 1.0d
+			image: "alexscaves:item/extinction_spear"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 15.0d
+		}
+		{
+			height: 1.0d
+			image: "create:item/copper_diving_helmet"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/copper_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.0d
+			y: 9.0d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:item/primitive_club"
+			order: 2
+			rotation: -90.0d
+			width: 1.0d
+			x: 1.5d
+			y: 14.0d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:item/burrowing_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 13.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:item/dreadbow"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: 16.5d
+		}
+		{
+			height: 1.0d
+			image: "chipped:block/deepslate/creeper_deepslate_carving"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/hologram_projector"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "lost_aether_content:item/sentry_shield"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:item/seeking_arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:textures/mob_effect/magnetizing.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:item/desolate_dagger"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 15.0d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:item/frosted_gingerbread_door"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: 10.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/candy_cane"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:item/uranium"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:item/sulfur_dust"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:item/toxic_paste"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "scguns:item/anthralite_pickaxe"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:item/cave_tablet"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "enigmaticlegacy:item/animal_guidebook"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:item/cave_codex"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:item/pearl"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: 13.0d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/chiseled_candy_cane_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/chiseled_candy_cane_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/chiseled_candy_cane_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: 12.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/acidic_radrock"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/acidic_radrock"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/acidic_radrock"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/acidic_radrock"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/acidic_radrock"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/acidic_radrock"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/acidic_radrock"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/acidic_radrock"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/acidic_radrock"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/acidic_radrock"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/acidic_radrock"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/acidic_radrock"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "chipped:block/cobblestone/prismal_cobblestone_remnants"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "chipped:block/cobblestone/prismal_cobblestone_remnants"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "chipped:block/cobblestone/prismal_cobblestone_remnants"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "chipped:block/cobblestone/prismal_cobblestone_remnants"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "chipped:block/cobblestone/prismal_cobblestone_remnants"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/neodymium/azure_pillar_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/neodymium/scarlet_pillar_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/neodymium/azure_pillar_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/neodymium/scarlet_pillar_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/neodymium/azure_pillar_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/abyssmarine_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: 10.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/abyssmarine_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: 11.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/abyssmarine_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: 12.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/abyssmarine_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: 13.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/abyssmarine_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/abyssmarine_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/abyssmarine_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/amber"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/amber"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/guanostone"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/guanostone"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/guanostone"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/guanostone"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/guanostone"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/guanostone"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/guanostone"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/guanostone"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/guanostone"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/guanostone"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/guanostone"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: 16.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/guanostone"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: 15.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/guanostone"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: 13.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:textures/mob_effect/irradiated.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/acid_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/acid_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/acid_still"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/nuclear_bomb_side_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/acid_flowing"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/acid_flowing"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/acid_flowing"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/acid_flowing"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/ambersol"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/primal_magma_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/primal_magma_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/primal_magma_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/primal_magma_active"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/primal_magma_active"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 19.0d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/primal_magma_active"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 19.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/primal_magma_active"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 20.0d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/primal_magma_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/pewen/pewen_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/pewen/pewen_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 18.0d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/pewen/pewen_log"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 17.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/fern_thatch_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 17.0d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/fern_thatch_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 17.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/fern_thatch_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 17.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dirt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/guanostone_redstone_ore"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/guanostone_redstone_ore"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/guanostone_redstone_ore"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: 14.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/guanostone_redstone_ore"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: 17.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/galena_iron_ore"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/galena_pillar_end"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/galena_pillar_end"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/energized_galena_scarlet"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/energized_galena_scarlet"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/energized_galena_top_azure"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/energized_galena_top_scarlet"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/energized_galena_top_azure"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/energized_galena_top_scarlet"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/energized_galena_azure"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/energized_galena_azure"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/energized_galena_neutral"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/energized_galena_top_neutral"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/energized_galena_top_neutral"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/galena_iron_ore"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/guanostone_chiseled"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/abyssmarine_pillar_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: 9.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/abyssmarine_pillar_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: 14.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/abyssmarine_pillar_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/abyssmarine"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: 8.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/abyssmarine"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/radrock_uranium_ore"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/radrock_uranium_ore"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/radrock_uranium_ore"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/radrock_uranium_ore"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/colored_water"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: 15.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/purple_soda_still"
+			rotation: 0.0d
+			width: 0.020833333333333332d
+			x: 19.5d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/colored_water"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.5d
+			y: 15.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/colored_water"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.0d
+			y: 16.0d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/colored_water"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.0d
+			y: 16.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/colored_water"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.0d
+			y: 17.0d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/colored_water"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.0d
+			y: 15.5d
+		}
+		{
+			height: 1.0d
+			image: "cold_sweat:block/colored_water"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.0d
+			y: 17.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/muck"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: 16.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/muck"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: 17.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/muck"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/muck"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.0d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/purple_soda_still"
+			rotation: 0.0d
+			width: 0.020833333333333332d
+			x: -13.0d
+			y: 8.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/purple_soda_still"
+			rotation: 0.0d
+			width: 0.020833333333333332d
+			x: -17.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "create:fluid/chocolate_flow"
+			rotation: 0.0d
+			width: 0.03125d
+			x: -13.0d
+			y: 8.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/block_of_chocolate"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: 11.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/block_of_chocolate"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: 8.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/block_of_chocolate"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: 10.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/frosted_chocolate_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: 9.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:textures/misc/advancement/icon/feed_gummy_bear.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/frosted_gingerbread_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.5d
+			y: 12.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/frosted_gingerbread_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.5d
+			y: 13.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/frosted_gingerbread_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: 12.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/frosted_gingerbread_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: 12.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/frosted_gingerbread_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: 13.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:block/frosted_gingerbread_door"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: 13.5d
+		}
+		{
+			height: 1.0d
+			image: "alexscaves:textures/misc/advancement/icon/gingerbread_town.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.5d
+			y: 13.5d
+		}
+		{
+			height: 1.0d
+			image: "scguns:textures/gui/melee_attack_indicator_progress.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: 13.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "154FB4F1435A1BB7"
+			rewards: [
+				{
+					id: "3E7B4185A0696AA0"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 5
+					id: "426AAADC822B55E8"
+					item: "minecraft:torch"
+					type: "item"
+				}
+				{
+					id: "1D5DBC0DA97C6865"
+					item: {
+						Count: 1
+						id: "minecraft:iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "Подземные хижины — это небольшие постройки, встречающиеся под поверхностью в &2Обычном мире"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/root"
+				criterion: ""
+				id: "1C063B6212143A38"
+				type: "advancement"
+			}]
+			title: "Войдите в &8подземную хижину"
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["154FB4F1435A1BB7"]
+			id: "0D0F11B69A333033"
+			rewards: [{
+				id: "55B4053A85E82E03"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Пещерные таблички — это предмет, который можно получить в основном, исследуя и находя &8подземные хижины"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/cave_tablet"
+				criterion: ""
+				id: "766A7F72637B87F7"
+				type: "advancement"
+			}]
+			title: "Добудьте &6пещерную табличку"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0D0F11B69A333033"]
+			description: ["Пещерный путеводитель предоставляет подробную документацию об общем контенте, который предлагает Alex's Caves, например, информацию о биомах, мобах и прогрессии, добавляемых этим модом. Чтобы использовать эту книгу, возьмите её в руки и нажмите ПКМ, чтобы она открылась на вашем экране. После этого просто наведите курсор на край страницы, и вы увидите анимацию покачивания, если есть предыдущая или следующая страница. Эта анимация указывает, что страница готова к перелистыванию на предыдущую/следующую страницу нажатием любой кнопки мыши."]
+			id: "33583F05E7EAB9E3"
+			rewards: [
+				{
+					id: "72C9BEFE7EFE1DB7"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "164F398A31DE9780"
+					item: "minecraft:book"
+					type: "item"
+				}
+			]
+			subtitle: "Можно найти в &2подземной хижине"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/cave_book"
+				criterion: ""
+				id: "392BEEA737547A34"
+				type: "advancement"
+			}]
+			title: "Добудьте &6пещерный путеводитель"
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0D0F11B69A333033"]
+			id: "22950E2D44C0C880"
+			rewards: [{
+				id: "12F854B5451C1962"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Пещерные манускрипты — это предметы, которые можно получить, завершив исследование пещерной таблички на &6столе спелеолога&7."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/cave_codex"
+				criterion: ""
+				id: "7468D33F39CBF857"
+				type: "advancement"
+			}]
+			title: "Добудьте &6пещерный манускрипт"
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["22950E2D44C0C880"]
+			id: "3D26459BA57DAC7E"
+			shape: "hexagon"
+			size: 3.0d
+			subtitle: "Когда карта пещерного биома только создана, она будет пустой. Карту нужно взять в руки и использовать,\\nчтобы она начала сканировать радиус в 10 000 блоков в поисках целевого биома. Целевой биом будет отображаться в подсказке предмета."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/cave_map"
+				criterion: ""
+				id: "296A1E7E0681A43E"
+				type: "advancement"
+			}]
+			title: "Скрафтите &6карту пещерного биома"
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3D26459BA57DAC7E"]
+			id: "3D331BCB5128251A"
+			shape: "square"
+			size: 1.0d
+			subtitle: "Когда вы находитесь в биоме магнитных пещер, небо приобретает тёмный цвет. Вокруг игрока периодически будут вспыхивать молнии цвета лазурного и алого неодима. Можно увидеть небольшие парящие куски галенита, которые движутся вверх и вниз, словно не подвержены гравитации."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/discover_magnetic_caves"
+				criterion: ""
+				id: "6C297CDD426B12AE"
+				type: "advancement"
+			}]
+			title: "&1Магнитные пещеры"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3D331BCB5128251A"]
+			id: "10E05E4F4566BEF1"
+			rewards: [
+				{
+					id: "6DB45646AEDA437E"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 3
+					id: "40EEE8B421365A04"
+					item: "alexscaves:notor_gizmo"
+					type: "item"
+				}
+			]
+			subtitle: "Победите маячка,\\nчтобы получить его вещицу."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/defeat_notor"
+				criterion: ""
+				id: "124C7D937DA9A4C3"
+				type: "advancement"
+			}]
+			title: "Победите &4маячка"
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3D331BCB5128251A"]
+			id: "2061FF3334FC5796"
+			subtitle: "можно использовать для предметов и блоков"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/neodymium"
+				criterion: ""
+				id: "5AE5BD28A4524235"
+				type: "advancement"
+			}]
+			title: "Добудьте &4рудный неодим"
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["10E05E4F4566BEF1"]
+			id: "688032C6B0EC0DC0"
+			rewards: [{
+				id: "42063892E29B1076"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/hologram_projector"
+				criterion: ""
+				id: "2B300F315850AE84"
+				type: "advancement"
+			}]
+			title: "Создайте &fголографический проектор"
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2061FF3334FC5796"]
+			id: "49CC285A65C9F4EE"
+			rewards: [
+				{
+					id: "0A6A32155D7D4544"
+					item: "alexscaves:scarlet_neodymium_ingot"
+					type: "item"
+				}
+				{
+					id: "1965E373AC780AF3"
+					item: "alexscaves:azure_neodymium_ingot"
+					type: "item"
+				}
+				{
+					id: "7DE8050E7174E511"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Переплавьте &4неодим"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/neodymium_ingot"
+				criterion: ""
+				id: "0785D87067F7D5AD"
+				type: "advancement"
+			}]
+			title: "Добудьте &1слиток неодима"
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2061FF3334FC5796"]
+			id: "389B89CB730371F5"
+			rewards: [
+				{
+					id: "3E352F07135250B1"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 3
+					id: "549D613821E126E6"
+					item: "alexscaves:raw_scarlet_neodymium"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "39F589CE968AEFB0"
+					item: "alexscaves:raw_azure_neodymium"
+					type: "item"
+				}
+			]
+			subtitle: "Победите &4связиборга"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/defeat_boundroid"
+				criterion: ""
+				id: "7386AE7ABA930752"
+				type: "advancement"
+			}]
+			title: "Добудьте &4грузило"
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["49CC285A65C9F4EE"]
+			id: "24FFEF2D7DB784B1"
+			rewards: [{
+				id: "088297C70550EB29"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Победив &4телетора"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/telecore"
+				criterion: ""
+				id: "70A11FA2A2776BE0"
+				type: "advancement"
+			}]
+			title: "Добудьте &1телеядро"
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["49CC285A65C9F4EE"]
+			id: "618E37C534A8075B"
+			rewards: [
+				{
+					id: "3871BABBA0FCCD28"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 9
+					id: "534BDCFBF130558F"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Победите &fмагнитрона."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/defeat_magnetron"
+				criterion: ""
+				id: "169DF8C8BA8AABCE"
+				type: "advancement"
+			}]
+			title: "Добудьте &fжелезное сердце"
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["49CC285A65C9F4EE"]
+			description: [
+				"Рельсы магнитной левитации можно использовать для создания путей для вагонеток. Подобно энергорельсам, они не могут изгибаться, но, в отличие от них, не требуют питания от редстоуна и могут разгонять вагонетки ещё быстрее."
+				""
+				"Вагонетки будут левитировать над рельсами магнитной левитации, даже когда они не движутся. Это сопровождается косметическим эффектом синей молнии под вагонеткой."
+			]
+			id: "60EFF7CB77221D68"
+			rewards: [
+				{
+					id: "2E3F8777282229A4"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 20
+					id: "750FAE74CF0EB066"
+					item: "minecraft:rail"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/magnetic_levitation_rail"
+				criterion: ""
+				id: "44AD254B4FD97ED0"
+				type: "advancement"
+			}]
+			title: "Создайте &1рельсы магнитной левитации"
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["618E37C534A8075B"]
+			description: ["Щит сопротивления — это уникальный вариант щита, который используется для блокирования урона от атак или взрывов, одновременно нанося постоянный урон и отбрасывая врагов в небольшом радиусе. Как и обычные щиты, их можно временно отключить ударом топора, а некоторые атаки полностью их игнорируют. В отличие от обычных щитов, на щиты сопротивления нельзя наносить флаги."]
+			id: "40220219DF062D79"
+			rewards: [{
+				id: "3E768ED12EA511A3"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/resistor_shield"
+				criterion: ""
+				id: "4B855419C15A2670"
+				type: "advancement"
+			}]
+			title: "Создайте &4щит сопротивления"
+			x: 12.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["618E37C534A8075B"]
+			id: "2D7183666507AFA4"
+			rewards: [
+				{
+					count: 5
+					id: "42EA49C49AC98388"
+					item: "alexscaves:magnetic_light"
+					type: "item"
+				}
+				{
+					id: "5D3786A7AF033757"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/quarry"
+				criterion: ""
+				id: "67F099C609179FAF"
+				type: "advancement"
+			}]
+			title: "Создайте &1магнитный карьер"
+			x: 12.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2D7183666507AFA4"]
+			description: [
+				"Если дробитель магнитного карьера размещён в квадратной или прямоугольной области, отмеченной магнитными фонарями и магнитным карьером, он автоматически активируется. Между фонарями и дробителем начнут пробегать белые электрические разряды, и он полетит к самому северо-западному углу отмеченной области."
+				""
+				"Достигнув этого угла, дробитель опустит свой алый неодимовый груз на первый твёрдый блок внизу, мгновенно разрушая его, если это не барьер, бедрок, командный блок, структурный блок, укреплённый глубинный сланец или вулканическое ядро. Если под ним окажется один из вышеупомянутых неразрушимых блоков, груз просто проигнорирует его и пройдёт сквозь. Разрушив блок под собой, он переместится на один блок к югу и разрушит новый блок. Этот процесс будет повторяться, пока он не достигнет границы отмеченной области, после чего он вернётся на север и сместится на один блок вбок, чтобы начать новый ряд блоков для разрушения. После того как весь слой блоков на одной глубине будет уничтожен, он вернётся в исходное положение и начнёт добывать слой непосредственно под ним."
+				""
+				"Этот процесс будет повторяться, пока дробитель магнитного карьера не закончит добычу всех доступных для добычи блоков в отмеченной области, после чего он останется бездействовать на земле."
+			]
+			id: "60A82C51C0D977AD"
+			rewards: [{
+				id: "53196E8CC46AF3E2"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Дробитель магнитного карьера — это размещаемая сущность, используемая вместе с магнитным карьером для создания полностью автоматического механизма добычи."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/finished_quarry"
+				criterion: ""
+				id: "2798AB3AE43BC2E3"
+				type: "advancement"
+			}]
+			title: "Создайте &1дробитель магнитного карьера"
+			x: 12.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["49CC285A65C9F4EE"]
+			description: ["Самонаводящаяся стрела — это особый вариант стрелы, наполненный магнитными свойствами неодима, заставляющими её изгибаться в сторону любого ближайшего моба, мимо которого она пролетает"]
+			id: "7B18F3A37B9C3AE1"
+			rewards: [
+				{
+					id: "4778E8467E4DCD59"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 15
+					id: "4821B232AADA2E5E"
+					item: "minecraft:arrow"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/seeking_arrow"
+				criterion: ""
+				id: "1C89F550AE3851B0"
+				type: "advancement"
+			}]
+			title: "Создайте &4самонаводящуюся стрелу"
+			x: 10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["49CC285A65C9F4EE"]
+			description: ["При подаче питания магнит отталкивает магнитные блоки и предметы в направлении, в котором он обращён. Любые блоки, отталкиваемые магнитом, нельзя сломать, пока они не покинут его зону действия."]
+			id: "14F977DA32D5FD2C"
+			rewards: [{
+				id: "33FB2BAFF62CC132"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/magnet"
+				criterion: ""
+				id: "1F1170CC126A9106"
+				type: "advancement"
+			}]
+			title: "Скрафтите &1магнит"
+			x: 10.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3D26459BA57DAC7E"]
+			id: "38DA59687CAD2A74"
+			rewards: [{
+				id: "7D363C39795184B7"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "hexagon"
+			subtitle: "Можно также обнаружить давно заброшенные исследовательские посты, созданные загадочной древней цивилизацией, а также гораздо более таинственные руины..."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/discover_abyssal_chasm"
+				criterion: ""
+				id: "51652A48FB29134A"
+				type: "advancement"
+			}]
+			title: "&3Подводная бездна"
+			x: 6.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["38DA59687CAD2A74"]
+			id: "6535B8A2D7F5CF44"
+			rewards: [{
+				id: "09EECAB8F7CB4BCD"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Руины бездны — это парящие строения, разбросанные по дну подводной бездны. Они являются единственным источником эксклюзивных черепков и игрового контроллера."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/discover_abyssal_ruins"
+				criterion: ""
+				id: "7B09F8B86C4E1174"
+				type: "advancement"
+			}]
+			title: "Найдите &3руины бездны"
+			x: 9.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6535B8A2D7F5CF44"]
+			id: "33AFDC1A372A58FE"
+			rewards: [
+				{
+					id: "2A78FF44BA7A975E"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 5
+					id: "325BCF249004E2B4"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Водолазный костюм предназначен в основном для навигации в подводной бездне и облегчения передвижения под водой."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/diving_armor"
+				criterion: ""
+				id: "0B6AF6F4391F9673"
+				type: "advancement"
+			}]
+			title: "Создайте &6водолазный костюм"
+			x: 9.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6535B8A2D7F5CF44"]
+			id: "591BC74BC75B9BA6"
+			rewards: [{
+				id: "0F71522649A7C5FC"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Они привязаны к якорю, который ограничивает их движение, но при приближении к цели они взрываются, разрушая блоки под водой и нанося огромный урон."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/defeat_mine_guardian"
+				criterion: ""
+				id: "72A2B462CB763BF2"
+				type: "advancement"
+			}]
+			title: "Победите &8минного стража"
+			x: 7.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6535B8A2D7F5CF44"]
+			id: "761A53062E13E46C"
+			rewards: [{
+				id: "71A93DB1DA27B708"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Субмарина — это огромное управляемое транспортное средство, используемое для перемещения игроков в больших водоёмах, таких как океаны. Из-за своих размеров они невероятно прочны, требуют множества ударов для уничтожения и движутся гораздо быстрее, чем лодки."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/ride_submarine"
+				criterion: ""
+				id: "1CF5685F4933F009"
+				type: "advancement"
+			}]
+			title: "Прокатитесь на &6субмарине"
+			x: 10.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["38DA59687CAD2A74"]
+			id: "62E28103FD8725B4"
+			rewards: [
+				{
+					id: "3093F1C4CE21621F"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 3
+					id: "6D4ABD3552928C6C"
+					item: "alexscaves:cooked_lanternfish"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/abyssal_bucket"
+				criterion: ""
+				id: "5E7906EF3245DC91"
+				type: "advancement"
+			}]
+			title: "Поймайте любое глубоководное существо в &bведро"
+			x: 9.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["62E28103FD8725B4"]
+			id: "6343D92F0012E68E"
+			rewards: [{
+				id: "3474E817F598AC4B"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Биолюминесценция — это предмет, являющийся источником характерного синего свечения светящегося червя. Он используется в качестве ингредиента для крафта и зелий."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/bioluminesscence"
+				criterion: ""
+				id: "6D59204016647647"
+				type: "advancement"
+			}]
+			title: "Добудьте &bбиолюминесценцию"
+			x: 10.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6343D92F0012E68E"]
+			id: "3B3702933907ACF7"
+			rewards: [{
+				id: "3B4DE83434284C5A"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Поплавок — это ездовая сущность, в основном используемая для спасения от утопления путём быстрого подъёма на поверхность воды."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/floater"
+				criterion: ""
+				id: "4317F05F77AFA6C0"
+				type: "advancement"
+			}]
+			title: "Скрафтите &bпоплавок"
+			x: 12.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6343D92F0012E68E"]
+			id: "361EC6AE547EA8C8"
+			subtitle: "Биолюминесцентные факелы — это нетвёрдые светоизлучающие блоки, которые можно размещать под водой."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/bioluminescent_torch"
+				criterion: ""
+				id: "726513224AE83C79"
+				type: "advancement"
+			}]
+			title: "Скрафтите &bбиолюминесцентный факел"
+			x: 12.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["38DA59687CAD2A74"]
+			id: "33B62E5A1E6F20F7"
+			rewards: [{
+				id: "6549C162C117842F"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "мидии можно использовать в качестве источника пищи."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/mussel"
+				criterion: ""
+				id: "11AEEDB7A4B837D4"
+				type: "advancement"
+			}]
+			title: "Добудьте &bмидию"
+			x: 7.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["33B62E5A1E6F20F7"]
+			id: "1824B064FA0C393B"
+			subtitle: "Жемчужины — ценные предметы, которые иногда выпадают при разрушении мидий. Эти товары в основном используются для обмена с обществом глубинников."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/pearl"
+				criterion: ""
+				id: "6F56CE20E297849C"
+				type: "advancement"
+			}]
+			title: "Добудьте &fжемчужину"
+			x: 9.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["1824B064FA0C393B"]
+			id: "5366C3CB0714C866"
+			rewards: [{
+				id: "713CC2CC1B124D5D"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Глубинники — это обычные нейтральные водные мобы, встречающиеся в подводной бездне. Сначала они осторожно преследуют игроков, но могут стать союзниками или врагами в зависимости от действий игроков."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/stalked_by_deep_one"
+				criterion: ""
+				id: "4BE6E11B364C23AD"
+				type: "advancement"
+			}]
+			title: "....&1Глубинник"
+			x: 10.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["5366C3CB0714C866"]
+			id: "0A92BCF37B0E719C"
+			rewards: [{
+				id: "3A811BCBB986F939"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Алтари бездны используются для торговли с глубинниками. На алтарь можно положить любой предмет, но единственные предметы, которые привлекут внимание глубинников, — это жемчужины и сердца моря. Если любой из глубинников заметит жемчужину или сердце моря на алтаре бездны, он медленно подплывёт к алтарю и заберёт предмет. После нескольких мгновений осмотра подношения он положит взамен свой предмет, освещая трещины на всём монолите бездны странными зеленовато-белыми линиями. Успешная торговля немного повысит вашу репутацию у глубинников."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/pearl_on_abyssal_altar"
+				criterion: ""
+				id: "30666431A6E862E3"
+				type: "advancement"
+			}]
+			title: "Скрафтите &1алтарь бездны."
+			x: 12.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["0A92BCF37B0E719C"]
+			id: "1E98918F20C51163"
+			subtitle: "совершите успешную сделку с &1глубинником."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/trade_with_deep_one"
+				criterion: ""
+				id: "3DF3C993DDB3530A"
+				type: "advancement"
+			}]
+			title: "мы же друзья... верно?"
+			x: 12.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["3D26459BA57DAC7E"]
+			id: "1435427EDC1235B1"
+			rewards: [{
+				id: "34A71AAB4EE433F4"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "pentagon"
+			subtitle: "Первобытные пещеры были изолированы от остального мира на протяжении неисчислимых тысячелетий — возможно, на десятки миллионов лет. Эта изоляция привела к тому, что в известняковых пещерах развилась уникальная геология, флора и фауна, которые вымерли в других частях мира много веков назад."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/discover_primordial_caves"
+				criterion: ""
+				id: "67F9013B305D6862"
+				type: "advancement"
+			}]
+			title: "&6Первобытные пещеры"
+			x: 3.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1435427EDC1235B1"]
+			id: "2E10E819E1D4E0BC"
+			rewards: [{
+				id: "5CE1567ED73B022B"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Зловещий катализатор — это таинственный предмет, используемый для пробуждения могущественного люкстрактозавра. В отличие от большинства других предметов, он невосприимчив к огню и лаве."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/ominous_catalyst"
+				criterion: ""
+				id: "5FE00B55FAD4FE3B"
+				type: "advancement"
+			}]
+			title: "Создайте &6зловещий катализатор"
+			x: 4.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6C2DF2DDDDAA4DB3"]
+			id: "1C9C94CF030B9F95"
+			rewards: [
+				{
+					id: "44BCDB4F04611B8D"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 5
+					id: "594208E725854685"
+					item: "alexscaves:tectonic_shard"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "08996674EC6FFDEB"
+					item: "alexsmobs:cooked_kangaroo_meat"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/defeat_luxtructosaurus"
+				criterion: ""
+				id: "262BE93AF50F0758"
+				type: "advancement"
+			}]
+			title: "Победите &4люкстрактозавра"
+			x: 5.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["2E10E819E1D4E0BC"]
+			id: "6C2DF2DDDDAA4DB3"
+			rewards: [{
+				id: "6D99AAEB4DC769DB"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Призовите &4люкстрактозавра "
+			tasks: [{
+				advancement: "alexscaves:alexscaves/summon_luxtructosaurus"
+				criterion: ""
+				id: "59B857B6F5FF887C"
+				type: "advancement"
+			}]
+			title: "Прекрасно, &6не стоило мне этого делать"
+			x: 5.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["1C9C94CF030B9F95"]
+			id: "4E14723458D6DC6E"
+			rewards: [{
+				id: "01B98FE5AF1CC6F7"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Копьё вымирания — это копьё, наделённое силой древних мобов, которое можно использовать как оружие ближнего и дальнего боя, подобно известняковому копью и трезубцу."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/extinction_spear"
+				criterion: ""
+				id: "490A45B05800C632"
+				type: "advancement"
+			}]
+			title: "Скрафтите &4копьё вымирания"
+			x: 5.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["1435427EDC1235B1"]
+			description: ["Тяжёлая кость — это особый вид кости, получаемый при убийстве только самых крупных динозавров в первобытных пещерах. Из неё можно получить больше костной муки, чем из обычных костей, но в основном она используется для создания эксклюзивных первобытных предметов."]
+			id: "0F4E28D9A7F6296B"
+			rewards: [
+				{
+					id: "6A9A6276D14B14A1"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 5
+					id: "766280D814A33951"
+					item: "alexscaves:tough_hide"
+					type: "item"
+				}
+			]
+			subtitle: "вы получите их только с сотрясозавра, реликвейруса и атлатитана"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/defeat_big_dinosaur"
+				criterion: ""
+				id: "6483493F01502916"
+				type: "advancement"
+			}]
+			title: "Что ж, &6они всё равно вымерли"
+			x: 3.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["0F4E28D9A7F6296B"]
+			id: "48399546AB65C1BF"
+			rewards: [{
+				id: "657AC498EC7FA2BA"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Комплект первобытной брони состоит из первобытного шлема, первобытной туники и первобытных штанов. В отличие от всех других комплектов брони, в этом нет ботинок."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/primordial_armor"
+				criterion: ""
+				id: "6EB120D747FF9D5D"
+				type: "advancement"
+			}]
+			title: "Создайте &6комплект первобытной брони"
+			x: 3.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["0F4E28D9A7F6296B"]
+			description: [""]
+			id: "33C8090C80DC03AA"
+			rewards: [{
+				id: "38D1F24B89AFEF63"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Первобытная дубина — это чрезвычайно медленное, но мощное оружие ближнего боя, которое с некоторой вероятностью накладывает на врагов эффект оглушения при каждом ударе. Она наиболее полезна для побега от сильных врагов."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/primitive_club"
+				criterion: ""
+				id: "69FB2B74752B6EB9"
+				type: "advancement"
+			}]
+			title: "Скрафтите &6первобытную дубину"
+			x: 2.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["3D26459BA57DAC7E"]
+			id: "16FAAFA315A23A5E"
+			rewards: [{
+				id: "456610BE0FBDE462"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Вся фауна, обитающая в забвенных пустотах, была искажена их тёмными влияниями, но некоторые подверглись ещё более тёмным силам. Даже сейчас некоторые существа призывают оттуда ещё более тёмных собратьев из потусторонних теней..."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/discover_forlorn_hollows"
+				criterion: ""
+				id: "7EA72F55D73D6BC2"
+				type: "advancement"
+			}]
+			title: "&4Забвенные пустоты"
+			x: -1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3D26459BA57DAC7E"]
+			id: "1E67608CDE9C247F"
+			rewards: [{
+				id: "0B0DED3E77144C0D"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Хотя эта пещера может показаться самой сладкой и безопасной, здесь обитают и другие существа. Однако, если у вас мало здоровья или голода, большинство блоков и предметов в биоме съедобны и восполнят большое количество голода."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/discover_candy_cavity"
+				criterion: ""
+				id: "04ED4FBB5B30F311"
+				type: "advancement"
+			}]
+			title: "&5Конфетный котлован"
+			x: -3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3D26459BA57DAC7E"]
+			id: "73F93EABC9F30550"
+			rewards: [{
+				id: "5F7B5075B210F0FB"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Токсичные пещеры — это огромная подземная пустошь, которая, должно быть, возникла в результате излишеств научной гордыни в давно минувшие эпохи."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/discover_toxic_caves"
+				criterion: ""
+				id: "38662602B289DD50"
+				type: "advancement"
+			}]
+			title: "&2Токсичные пещеры"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1E67608CDE9C247F"]
+			id: "28CE577EFCDBC333"
+			rewards: [
+				{
+					id: "2B66F87B11E90E1F"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "5827AE62FEE0C114"
+					item: {
+						Count: 1
+						id: "aether:candy_cane_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/licowitch_tower"
+				criterion: ""
+				id: "63C3CDEA29F99F9A"
+				type: "advancement"
+			}]
+			title: "Найдите &5конфедьму"
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1E67608CDE9C247F"]
+			id: "37F6C0CEB86D6F8A"
+			subtitle: "Пряничные городки — это структуры, естественно появляющиеся в конфетном котловане. Эти миниатюрные крепости напоминают средневековые деревни и замки и соразмерны пряничным человечкам, которые появляются и живут в них."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/gingerbread_town"
+				criterion: ""
+				id: "42BE9ADAA5165B61"
+				type: "advancement"
+			}]
+			title: "Найдите &6пряничный городок"
+			x: -4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1E67608CDE9C247F"]
+			id: "5798A4AC09028DB8"
+			rewards: [{
+				id: "5B308723DD6411F0"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/eat_block_of_chocolate"
+				criterion: ""
+				id: "74F2595A876CCE02"
+				type: "advancement"
+			}]
+			title: "Съешьте &eблок шоколада"
+			x: -5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["37F6C0CEB86D6F8A"]
+			id: "4D4EA929465AC3B3"
+			rewards: [{
+				id: "1BA2A0F1941A04A5"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/gingerbread_armor"
+				criterion: ""
+				id: "261C31CEDA4FD1B2"
+				type: "advancement"
+			}]
+			title: "Наденьте полный комплект &6пряничных доспехов"
+			x: -5.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5798A4AC09028DB8"]
+			id: "5B04DBE1639F8C37"
+			rewards: [{
+				id: "4E5CB56667C4FE74"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/defeat_caniac"
+				criterion: ""
+				id: "152E2850BA06178A"
+				type: "advancement"
+			}]
+			title: "Победите &4тростоньяков"
+			x: -6.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5B04DBE1639F8C37"]
+			id: "02C26F66F0AB8CE3"
+			rewards: [{
+				id: "3E22E9ADBB660042"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/defeat_gumbeeper"
+				criterion: ""
+				id: "1B5DB5B268014511"
+				type: "advancement"
+			}]
+			title: "Победите &4жвачкрипера"
+			x: -8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["02C26F66F0AB8CE3"]
+			id: "0715AEF3F73A0475"
+			rewards: [{
+				id: "1CE991E4F2C7A096"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/shot_gum"
+				criterion: ""
+				id: "5742661F526BE03E"
+				type: "advancement"
+			}]
+			title: "Скрафтите &6жвачкострел"
+			x: -10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5798A4AC09028DB8"]
+			id: "1271E53801491B43"
+			rewards: [{
+				id: "0109F42CF8F49829"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/candy_cane_hook"
+				criterion: ""
+				id: "6728D2ED8EFF074D"
+				type: "advancement"
+			}]
+			title: "Создайте &6леденцовый крюк"
+			x: -5.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["1271E53801491B43"]
+			id: "6DE05A6C960E7E3D"
+			rewards: [{
+				id: "5797CBBB20EE2197"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/gobthumper"
+				criterion: ""
+				id: "260AE5FE6ECE87E8"
+				type: "advancement"
+			}]
+			title: "Создайте &dсладкую приманку"
+			x: -8.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6DE05A6C960E7E3D"]
+			id: "169E0D23C4106A00"
+			rewards: [{
+				id: "679DE76CB615E00F"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Мармеладный червь — это мини-босс и ездовой моб, обитающий в конфетном котловане."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/defeat_gum_worm"
+				criterion: ""
+				id: "758302242FB485C2"
+				type: "advancement"
+			}]
+			title: "Победите &4мармеладного червя"
+			x: -10.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["28CE577EFCDBC333"]
+			id: "6347614E73C60673"
+			rewards: [{
+				id: "720311EA5799FD3B"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/radiant_essence"
+				criterion: ""
+				id: "6B61F6D8789068AB"
+				type: "advancement"
+			}]
+			title: "Добудьте &5сияющую эссенцию"
+			x: -5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["16FAAFA315A23A5E"]
+			id: "5C5D5D0505D9398D"
+			rewards: [{
+				id: "1D40ACFFB12D633D"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Рытвенная стрела — это уникальный вариант стрелы, способный разрушать блоки при попадании."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/burrowing_arrow"
+				criterion: ""
+				id: "78F0BA70687609F9"
+				type: "advancement"
+			}]
+			title: "Скрафтите &6рытвенные стрелы"
+			x: -1.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["16FAAFA315A23A5E"]
+			id: "7151521511500D05"
+			rewards: [{
+				id: "4BD670543BC8C965"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Злотыльки — это обычные пассивные летающие мобы, встречающиеся в забвенных пустотах. Они летают вокруг источников света, потенциально привлекая монстров, таких как подзектанты и весперы."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/defeat_gloomoth"
+				criterion: ""
+				id: "04EFB96E0D1E27A5"
+				type: "advancement"
+			}]
+			title: "Убейте &6злотылька"
+			x: -3.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["7151521511500D05"]
+			id: "7C7194A9535A32BC"
+			subtitle: "Подзектанты — это обычные враждебные мобы, встречающиеся в забвенных пустотах. Они хватают ближайших злотыльков и приносят их в жертву во время ритуалов, превращая их в смотрителей. Иногда они делают то же самое с весперами, превращая их в забытых."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/discover_underzealot"
+				criterion: ""
+				id: "1915A0F727122A6C"
+				type: "advancement"
+			}]
+			title: "Победите &4подзектанта"
+			x: -5.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["7C7194A9535A32BC"]
+			id: "539201BD7BA0D464"
+			subtitle: "Безотрадный клинок — это магически заряженное оружие ближнего боя, способное призывать призрачные копии себя, которые наносят дополнительный урон целям."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/desolate_dagger"
+				criterion: ""
+				id: "54F4678353597EFF"
+				type: "advancement"
+			}]
+			title: "Добудьте &4безотрадный клинок"
+			x: -3.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["7C7194A9535A32BC"]
+			id: "52023945DAFBC867"
+			rewards: [{
+				id: "58BF91CB948CB28A"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Наблюдайте, как подзектант приносит в жертву весперов... и будьте готовы....  "
+			tasks: [{
+				advancement: "alexscaves:alexscaves/underzealot_sacrifice"
+				criterion: ""
+				id: "470D39305FCC451E"
+				type: "advancement"
+			}]
+			title: "Жертвоприношение веспера"
+			x: -6.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["52023945DAFBC867"]
+			id: "1051601E7BDC1D97"
+			rewards: [{
+				id: "5F81F6B3F006310C"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Победив &4забытого."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/shadow_silk"
+				criterion: ""
+				id: "170EE118D455AB96"
+				type: "advancement"
+			}]
+			title: "Добудьте &0теневой шёлк"
+			x: -6.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["1051601E7BDC1D97"]
+			id: "208AB9D368316115"
+			rewards: [{
+				id: "79462C139640D6B1"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Капюшон и плащ тьмы — это пара предметов, которые, будучи надетыми вместе, даруют носителю силы тьмы."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/shadow_armor"
+				criterion: ""
+				id: "5C09858728C5B3FA"
+				type: "advancement"
+			}]
+			title: "Скрафтите &4капюшон и плащ тьмы"
+			x: -7.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["1051601E7BDC1D97"]
+			id: "4849FE043BFBF67F"
+			subtitle: "Жуткий лук — это мощное дальнобойное оружие, способное обрушивать на врагов шквал тёмных стрел издалека."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/dreadbow"
+				criterion: ""
+				id: "299CC7E7F0561BED"
+				type: "advancement"
+			}]
+			title: "Скрафтите &4жуткий лук"
+			x: -5.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["52023945DAFBC867"]
+			id: "0E7F318797181EE5"
+			rewards: [{
+				id: "630FF869BB3F0F5C"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Смотрители — это враждебные мобы, которые могут появляться в результате ритуалов жертвоприношения подзектантов. Они могут вселяться в игроков во время атаки, заставляя их видеть мир своими глазами."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/defeat_watcher"
+				criterion: ""
+				id: "1557DF9E06823638"
+				type: "advancement"
+			}]
+			title: "Победите &4смотрителя"
+			x: -8.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["0E7F318797181EE5"]
+			id: "60C3F4584AC11793"
+			rewards: [{
+				id: "5E571AC168928A7C"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Тотем одержимости — это зловещее магическое оружие, способное подчинять и контролировать поведение ближайших существ. Он очень напоминает внешним видом злотылька."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/totem_of_possession"
+				criterion: ""
+				id: "2AE581D8BC5D80AB"
+				type: "advancement"
+			}]
+			title: "Создайте &4тотем одержимости"
+			x: -10.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["0E7F318797181EE5"]
+			id: "3B200D2F615AC646"
+			rewards: [{
+				id: "307AEA82153F9D17"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Созерцателей нужно разместить в мире, прежде чем с ними можно будет что-то сделать. При размещении в мире они начинают издавать странные звуки. Щелчок ПКМ по созерцателю с оккультным самоцветом в руке связывает самоцвет с созерцателем, заставляя его приобретать пурпурное мерцание и отображать координаты созерцателя в подсказке. После этого, нажатие ПКМ с привязанным самоцветом в руке позволяет вам видеть глазами созерцателя. При просмотре через созерцателя на экран накладывается оранжевый фильтр, а камеру можно поворачивать во все стороны. Нажатие левого Shift выходит из режима просмотра."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/beholder_far_away"
+				criterion: ""
+				id: "5B212B0793922285"
+				type: "advancement"
+			}]
+			title: "Создайте &4созерцатель"
+			x: -10.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["761A53062E13E46C"]
+			description: [
+				"Поскольку субмарины являются сущностями, у них есть собственное здоровье, и они могут получать урон от различных источников, таких как трезубцы, брошенные утопленниками, или атаки ближнего боя от глубинников и кораблекрушителей."
+				""
+				"Подобно железному голему, субмарина начинает трескаться в зависимости от того, сколько здоровья у неё осталось. Каждые 10 единиц урона, которые поглощает субмарина, она переходит на одну стадию растрескивания вокруг основного корпуса, винтов и окна. Эти трещины будут усугубляться по мере прохождения новых стадий повреждений и в конечном итоге, после трёх стадий, станут настолько серьёзными, что она придёт в полную негодность — мгновенно выкидывая своего пассажира и теряя левый винт. Если до этого состояния она находилась в воде, она быстро пойдёт ко дну. После 4 стадий растрескивания и поглощения 50 единиц урона субмарина полностью сломается, и из неё выпадет 2-3 медных слитка."
+				""
+				"К счастью, треснувшую субмарину можно отремонтировать с помощью медных слитков. Если взять медный слиток и использовать его на субмарине с видимыми трещинами, это восстановит до 10 единиц накопленного урона и отремонтирует трещины на один уровень."
+			]
+			id: "6AB106C9312C9842"
+			rewards: [{
+				id: "5C8E8EFCAB1C4714"
+				type: "xp"
+				xp: 4
+			}]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/repair_submarine"
+				criterion: ""
+				id: "4EB30B8C4F5E6D18"
+				type: "advancement"
+			}]
+			title: "Отремонтируйте &6субмарину"
+			x: 12.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["73F93EABC9F30550"]
+			id: "684A5958EC013E10"
+			rewards: [{
+				id: "66CD0CE5A314E5DA"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Уран — это предмет, который можно получить, добывая урановую руду в радиамне Уран радиоактивен, и простое наличие его в инвентаре игрока может наложить эффект облучения на 1:30 секунды."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/uranium"
+				criterion: ""
+				id: "65CE74527FA8BD53"
+				type: "advancement"
+			}]
+			title: "Добудьте &2уран"
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4C0F79A64A06F254"]
+			id: "765B09F6D4504988"
+			rewards: [{
+				id: "3DDE83E7D913426B"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Урановые стержни используются в качестве топлива для ядерных печей, а также для создания других радиоактивных предметов."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/uranium_rod"
+				criterion: ""
+				id: "41BD652D6450785C"
+				type: "advancement"
+			}]
+			title: "Создайте &2урановый стержень"
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["684A5958EC013E10"]
+			id: "71904D3CE0FD43AD"
+			rewards: [{
+				id: "5704BAD6F66181E3"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Серная пыль — это предмет, в основном используемый для синтеза сырья или для создания еды, которая помогает при лечении от эффекта облучения."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/sulfur_dust"
+				criterion: ""
+				id: "4F263DEE382301DF"
+				type: "advancement"
+			}]
+			title: "Добудьте &eсерную пыль"
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["71904D3CE0FD43AD"]
+			id: "7828A1DF90B2FC9F"
+			rewards: [{
+				id: "27CAC197C5D783BA"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Токсичная мастика — это предмет, известный как отвратительные внутренности гаммаракана. Её можно использовать для создания некоторых основных блоков или предметов."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/toxic_paste"
+				criterion: ""
+				id: "67B7113523A54A61"
+				type: "advancement"
+			}]
+			title: "Добудьте &eтоксичную мастику"
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7828A1DF90B2FC9F"]
+			id: "7B69C1867E607B31"
+			rewards: [{
+				id: "359525C49FF3450F"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Полимерная пластина — это синтетический материал, созданный из множества сырьевых ингредиентов, найденных в токсичных пещерах."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/polymer_plate"
+				criterion: ""
+				id: "7384B11583DBB531"
+				type: "advancement"
+			}]
+			title: "Добудьте &eполимерную пластину"
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7B69C1867E607B31"]
+			id: "640A2E6A8A058BB0"
+			rewards: [{
+				id: "5E10C0C106DDC1C8"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Нам нужно варить."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/hazmat_armor"
+				criterion: ""
+				id: "2288C193ED8CAC7C"
+				type: "advancement"
+			}]
+			title: "Создайте &eкомплект химзащиты"
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7B69C1867E607B31"]
+			id: "5DFD036E29407C1E"
+			rewards: [{
+				id: "3E6E126F5588C424"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Дистанционный детонатор — это уникальное устройство, используемое для подрыва ТНТ и ядерных бомб с любого расстояния."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/remote_detonation"
+				criterion: ""
+				id: "3BAA71EE23D2741A"
+				type: "advancement"
+			}]
+			title: "Создайте &4дистанционный детонатор"
+			x: -10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["765B09F6D4504988"]
+			description: [""]
+			id: "212F30C1C7EE1229"
+			rewards: [{
+				id: "22B67DAF3AB6C751"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Мозгоньяки — это обычные враждебные мобы, встречающиеся в токсичных пещерах. Это мощные неживые монстры, которые используют различные атаки для уничтожения целей."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/defeat_brainiac"
+				criterion: ""
+				id: "36DE0D197B48BA18"
+				type: "advancement"
+			}]
+			title: "Победите &2мозгоньяка"
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["765B09F6D4504988"]
+			description: [""]
+			id: "1192B7E48B0CF02F"
+			rewards: [{
+				id: "4D4F4D2C82257E0F"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Излучатель — это футуристическое дальнобойное оружие, которое использует непрерывный луч энергии для нанесения урона любым мобам на своём пути."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/raygun"
+				criterion: ""
+				id: "06201AD4BFB47F0A"
+				type: "advancement"
+			}]
+			title: "Скрафтите &2излучатель"
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6DE05A6C960E7E3D"]
+			id: "126DE47A567515CE"
+			rewards: [{
+				id: "6587F82E18B86534"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/ride_gum_worm"
+				criterion: ""
+				id: "5F03D05DF3AAF724"
+				type: "advancement"
+			}]
+			title: "Оседлайте &6мармеладного червя"
+			x: -10.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["684A5958EC013E10"]
+			id: "4C0F79A64A06F254"
+			rewards: [
+				{
+					id: "22E015E671FC793F"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 15
+					id: "4E0E09418C9B8F32"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+			]
+			subtitle: " Кибернетический крипер, способный накопить достаточно энергии для самоликвидации в атомном взрыве."
+			tasks: [{
+				advancement: "alexscaves:alexscaves/defeat_nucleeper"
+				criterion: ""
+				id: "017C31B4CF078ED6"
+				type: "advancement"
+			}]
+			title: "Победите &2ядрипера"
+			x: -3.5d
+			y: 3.0d
+		}
+	]
+	title: " &6Alex's Caves&c"
+}

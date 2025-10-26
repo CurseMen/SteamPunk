@@ -1,0 +1,2853 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bruh"
+	group: "39BD55737A7439A2"
+	icon: "create:mechanical_arm"
+	id: "547D8D23D3A6A883"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7F9EF7E0EDD9575B"]
+			id: "4EB4838CCED125E2"
+			rewards: [{
+				id: "60C49E1E1A1980BD"
+				item: "create_compressed:iron_sheet_block"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			subtitle: "Новые рецепты!"
+			tasks: [{
+				id: "5C8677CAB68CDBF5"
+				item: "create:iron_sheet"
+				type: "item"
+			}]
+			title: "Создайте железный лист"
+			x: -27.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["514C4EBE77DC871B"]
+			id: "1579C73B735F06F8"
+			rewards: [{
+				count: 10
+				id: "22C0253C8EAB485B"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5983C48519515105"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			title: "Создайте железнодорожный корпус"
+			x: -19.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"31B9F34B69172C02"
+				"4E17A29F84247877"
+				"58A9E6688CEAFCC9"
+				"01A6C6F90581C91C"
+			]
+			id: "36129D7A46CC6F6D"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				advancement: "create:train"
+				criterion: ""
+				id: "0AF596BE70DCA925"
+				title: "ЧУХ-ЧУХ"
+				type: "advancement"
+			}]
+			x: -19.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["27CB2821D0EA92C5"]
+			id: "4AF3238551E346E1"
+			tasks: [{
+				id: "5AA7D9B4E863846A"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			title: "Создайте &cрукоятку"
+			x: -35.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2231B9FF6BB3CEB7"]
+			id: "605ECFFA4F1C2736"
+			shape: "square"
+			tasks: [{
+				count: 6L
+				id: "467CF458EC67569F"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			title: "Добудьте обсидиан"
+			x: -26.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["50190D2982688862"]
+			id: "4881D5FF815609C3"
+			shape: "square"
+			tasks: [{
+				count: 69L
+				id: "2F0FF11646ED9D1C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				type: "item"
+			}]
+			title: "69 брёвен"
+			x: -28.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1579C73B735F06F8"]
+			id: "4E17A29F84247877"
+			rewards: [
+				{
+					count: 16
+					id: "1DC9900FF3E49095"
+					item: "create:track"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "71781AEFC874637E"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "&6Контроллеры поезда&r необходимы для создания &6поездов&r."
+			tasks: [{
+				id: "0FB3C74D1CF20AF1"
+				item: "create:controls"
+				type: "item"
+			}]
+			title: "Создайте контроллер поезда"
+			x: -18.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["1579C73B735F06F8"]
+			id: "31B9F34B69172C02"
+			rewards: [
+				{
+					count: 16
+					id: "6932B26EBF1D2478"
+					item: "create:track"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "10F486AD6A5968E9"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "&6Железнодорожные станции&r используются для создания, разборки и направления &6поездов&r."
+			tasks: [{
+				id: "6869CF716EC9137A"
+				item: "create:track_station"
+				type: "item"
+			}]
+			title: "Создайте железнодорожную станцию"
+			x: -19.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0F8747577DC13AD3"]
+			icon: "minecraft:gold_nugget"
+			id: "0D0BEB7BD6474378"
+			shape: "square"
+			tasks: [{
+				count: 69L
+				id: "374F169250B13B5E"
+				item: "minecraft:gold_nugget"
+				type: "item"
+			}]
+			title: "69 кусочков золота"
+			x: -27.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["000CB6AFBD03894F"]
+			description: [
+				"- &6Паровой двигатель&r — это блок, обеспечивающий &6вращательную силу&r. Он имеет самую высокую &6производительность (Н)&r из всех блоков, генерирующих энергию вращения в режиме выживания. Он преобразует давление, создаваемое нагревом воды в &6жидкостном баке&r, во &6вращательную силу&r, что позволяет наладить крупномасштабное производство предметов и работу множества конструкций."
+				""
+				"- &6Паровые двигатели 9-го уровня&r невероятно &6сверэффективны&r."
+				""
+				"- Вот простой паровой двигатель 9-го уровня:"
+				"&1https://createmod.com/schematics/smallest-lvl-9-steam-engine&r"
+			]
+			id: "43B32C639F4B3200"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Нажмите"
+			tasks: [{
+				count: 9L
+				id: "0F427C6197BE7518"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			title: "Постройте &4паровой двигатель 9-го уровня"
+			x: -24.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["1A513CE71070D2D3"]
+			description: [
+				"&6Жидкостные трубы&r — это блоки, используемые для транспортировки и работы с &6жидкостями&r."
+				""
+				"- &lРазмещение:&r"
+				""
+				"Обычные трубы, проложенные параллельно друг другу, будут соединяться автоматически. &6Жидкостные трубы&r могут быть расположены рядом, не соединяясь, если их сделали прозрачными с помощью &6гаечного ключа&r, заключили в &6медный корпус&r или установили &6деревянную&r или &6металлическую балку&r. В отличие от &6балок&r или &6труб с окнами&r, &6медный корпус&r можно разместить на углах &6жидкостных труб&r, фиксируя трубу на месте и предотвращая её соединение с соседними трубами."
+				""
+				"- &lЖидкостная труба:&r"
+				""
+				"&6Жидкостные трубы&r могут перемещать только одну жидкость за раз; если разные жидкости пересекутся, труба засорится. Засорение трубы приведёт к получению &6достижения&r. Каждый раз, когда жидкостная сеть разветвляется, скорость передачи жидкости делится между выходами. &6Жидкостным трубам&r требуются &6механические помпы&r для перемещения жидкости."
+				""
+				"- &lМеханическая помпа&r: "
+				""
+				"&6Механические помпы&r имеют максимальную дальность действия 16 блоков в каждую сторону, настраиваемую в конфигурации. &6Механические помпы&r перемещают жидкость только в одном направлении за раз. &6Коричневые стрелки&r на помпе указывают направление потока. Направление потока можно изменить с помощью &6гаечного ключа&r. При использовании гаечного ключа весь клапан повернётся на 180 градусов. &6Коричневые стрелки направления&r появятся с другой стороны шестерни помпы."
+			]
+			id: "70799237323247B7"
+			shape: "rsquare"
+			subtitle: "Нажмите"
+			tasks: [
+				{
+					id: "10C300B57E40F356"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "03ED82015AE3D467"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+			]
+			title: "Создайте &6механику жидкостей"
+			x: -37.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4A964B78D5390B6A"]
+			description: [""]
+			id: "32B9EAE28E1C5D7A"
+			shape: "square"
+			subtitle: "&cЭлектронная лампа&r — это предмет, который используется только в &6рецептах&r."
+			tasks: [{
+				id: "059E87732C2699DC"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			title: "Создайте электронную лампу"
+			x: -37.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["70799237323247B7"]
+			id: "31E69CA962A58692"
+			subtitle: "&dУмные жидкостные трубы&r можно использовать, чтобы пропускать только определённую жидкость. Это можно настроить, поместив ведро или бутылку с жидкостью в &6слот фильтра&r на трубе. Может потребоваться &bфильтр списка&r с включённой опцией &6учитывать данные&r, чтобы &6умная труба&r могла различать определённые жидкости, например, зелья."
+			tasks: [{
+				id: "5B411729AAD16009"
+				item: "create:smart_fluid_pipe"
+				type: "item"
+			}]
+			title: "Создайте &6умную жидкостную трубу"
+			x: -36.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1A513CE71070D2D3"]
+			id: "2C8290C44890E0B5"
+			shape: "circle"
+			subtitle: "&cВодолазное снаряжение&r используется вместе с &6медным баллоном&r для передвижения под водой."
+			tasks: [
+				{
+					id: "3717FB82A5D4CAC3"
+					item: {
+						Count: 1
+						id: "create:copper_backtank"
+						tag: {
+							Air: 900
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "36DE6D66639F9E37"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": { }
+						}
+						id: "create:copper_diving_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5EAC820A8EFDA5F2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"cold_sweat:item_insulation": { }
+						}
+						id: "create:copper_diving_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Создайте &6водолазный комплект"
+			x: -36.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["514C4EBE77DC871B"]
+			description: [""]
+			id: "0EDFECC97E44B508"
+			rewards: [{
+				id: "1D2D49F5BC3AAFC6"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			subtitle: "&cПоследовательная коробка передач&r позволяет более точно управлять &aвращательной силой&r, допуская многократные изменения вращения в течение определённого периода времени."
+			tasks: [{
+				id: "247D868F3B1A8BD3"
+				item: "create:sequenced_gearshift"
+				type: "item"
+			}]
+			title: "Создайте &6последовательную коробку передач"
+			x: -17.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5971EEEDACF7F8F6"]
+			id: "380D4B2ABA64E65C"
+			shape: "square"
+			tasks: [{
+				count: 256L
+				id: "724B0DC5E8F9A8AC"
+				item: "create:crimsite"
+				type: "item"
+			}]
+			title: "Добудьте кримзит"
+			x: -18.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5971EEEDACF7F8F6"]
+			icon: "create:asurine"
+			id: "22FDEC239CF2CFF6"
+			shape: "square"
+			tasks: [{
+				count: 256L
+				id: "7CDA23F8A4F3048E"
+				item: "create:asurine"
+				type: "item"
+			}]
+			title: "Добудьте азурин"
+			x: -18.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5971EEEDACF7F8F6"]
+			id: "74FADF7CC23102E7"
+			shape: "square"
+			tasks: [{
+				count: 256L
+				id: "74979DD1042C8521"
+				item: "create:veridium"
+				type: "item"
+			}]
+			title: "Добудьте веридий"
+			x: -15.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5971EEEDACF7F8F6"]
+			id: "7735EA15E9909C1C"
+			shape: "square"
+			tasks: [{
+				count: 256L
+				id: "64C3607D185DE15F"
+				item: "create:ochrum"
+				type: "item"
+			}]
+			title: "Добудьте охрум"
+			x: -15.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["27CB2821D0EA92C5"]
+			id: "1A513CE71070D2D3"
+			shape: "gear"
+			size: 1.2d
+			subtitle: "Медный мир"
+			tasks: [{
+				id: "654090F6A7F3CF68"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			title: "&6Медь"
+			x: -37.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["27E206948965351D"]
+			id: "127AC3BFAC14DCC3"
+			shape: "circle"
+			subtitle: "Вмещает &c256 предметов&r в каждый слот (8). Сохраняет инвентарь при разрушении. Находящиеся рядом строители могут зажать клавишу, чтобы открыть его удалённо."
+			tasks: [{
+				id: "7BD0273EFAAB49D2"
+				item: "create:brown_toolbox"
+				type: "item"
+			}]
+			title: "Создайте &eящик для инструментов"
+			x: -42.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["032F76A1238E0BBB"]
+			description: [
+				"- Создание схематики:"
+				""
+				"Если &cсхематика&r сохранена, её можно скопировать на &aпустую схематику&r с помощью &cсхематичного стола&r. Это можно делать между мирами."
+			]
+			id: "50872F48704703B3"
+			shape: "rsquare"
+			subtitle: "Нажмите"
+			tasks: [{
+				id: "392D3B986C467889"
+				item: "create:schematic_table"
+				type: "item"
+			}]
+			title: "Создайте схематичный стол"
+			x: -32.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["50872F48704703B3"]
+			id: "3E0E5DE9A5C07183"
+			rewards: [{
+				count: 10
+				id: "4C2B95CEC36BEDE0"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&cСтроительная пушка&r — это особый тип машины, используемый для постройки структур с помощью &aсхематик&r. Это полезная конструкция, которая в основном используется в &aрежиме выживания&r для возведения структур блок за блоком."
+			tasks: [{
+				id: "3C08E4EE014C99CC"
+				item: "create:schematicannon"
+				type: "item"
+			}]
+			title: "Создайте строительную пушку"
+			x: -32.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["514C4EBE77DC871B"]
+			id: "722541F2C51F0087"
+			rewards: [
+				{
+					count: 5
+					id: "057BF3A41379746C"
+					item: "create:polished_rose_quartz"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "4429E2B88B0A4F9E"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Коробка передач, в которой направление вращения всех 4 сторон &eнастраивается независимо&7."
+			tasks: [{
+				id: "192A4EA7B9A013D2"
+				item: "create_connected:brass_gearbox"
+				type: "item"
+			}]
+			title: "Создайте&6 латунную коробку передач"
+			x: -20.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["514C4EBE77DC871B"]
+			id: "43DCAE3252C7FBA1"
+			rewards: [{
+				count: 5
+				id: "700323D3FEA8C50C"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			subtitle: "&cЧасовой механизм&r — это продвинутая версия &bподшипника ветряной мельницы&r для вращения до двух стрелок часов в соответствии с текущим игровым временем.&r"
+			tasks: [{
+				id: "1AF2A2116FB3F2F2"
+				item: "create:clockwork_bearing"
+				type: "item"
+			}]
+			title: "Создайте &6часовой механизм"
+			x: -18.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["514C4EBE77DC871B"]
+			id: "470A738A9480DE31"
+			rewards: [
+				{
+					count: 5
+					id: "49FB2CC77224F3C6"
+					item: "create:polished_rose_quartz"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5E9FDDC21D2C10DD"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "&cЛифтовая лебёдка&r — это &bконструкция&r, полезная для лёгкого создания многоэтажных лифтов.&r"
+			tasks: [{
+				id: "694B8ADE0D22A807"
+				item: "create:elevator_pulley"
+				type: "item"
+			}]
+			title: "Создайте &6лифтовую лебёдку"
+			x: -17.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["514C4EBE77DC871B"]
+			id: "0FF657DAAF38D204"
+			rewards: [
+				{
+					count: 5
+					id: "758B5E4A49744057"
+					item: "create:polished_rose_quartz"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "79051CCC7C03F169"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "&cПороговый переключатель&r измеряет, насколько полон инвентарь, и может излучать &bредстоун-сигнал&r при настраиваемых пороговых значениях.&r"
+			tasks: [{
+				id: "40927FAB3CB8373B"
+				item: "create:stockpile_switch"
+				type: "item"
+			}]
+			title: "Создайте &6пороговый переключатель"
+			x: -21.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5971EEEDACF7F8F6"]
+			id: "1C6B33E8694DF27D"
+			rewards: [{
+				id: "69308563D47BEF6E"
+				item: "create:powdered_obsidian"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "111EB093D7BE2C1F"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			title: "Добудьте обсидиан"
+			x: -17.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6FB73681F5C7FAB5"]
+			id: "4432B404BA76C9F3"
+			shape: "square"
+			tasks: [
+				{
+					count: 69L
+					id: "5C640A45B76A6021"
+					item: "minecraft:dried_kelp"
+					type: "item"
+				}
+				{
+					count: 69L
+					id: "62F312B18C13179B"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+			]
+			title: "Соберите еду"
+			x: -28.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["34346949C3804907"]
+			id: "4C7C56773AB0CB09"
+			shape: "square"
+			tasks: [{
+				count: 69L
+				id: "10B0B8DA0C01DE2D"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:rails"
+					}
+				}
+				type: "item"
+			}]
+			title: "69 рельсов"
+			x: -27.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["43B32C639F4B3200"]
+			id: "1F200A9E544B1582"
+			tasks: [
+				{
+					count: 3L
+					id: "2687BD2219386225"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "307FDE2FB19E5B23"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "236D6558589E5274"
+					item: "create:fluid_valve"
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "53DD6F0F327FCED7"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+				{
+					id: "5855549E7B405DDB"
+					item: "create:spout"
+					type: "item"
+				}
+			]
+			title: "Трубы и баки"
+			x: -22.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["43B32C639F4B3200"]
+			id: "667CC2F93B641AFC"
+			tasks: [
+				{
+					count: 36L
+					id: "495793A1D6F40853"
+					item: "minecraft:cauldron"
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "29C873776EF8650B"
+					item: "minecraft:pointed_dripstone"
+					type: "item"
+				}
+			]
+			title: "Возобновляемая вода"
+			x: -24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["43B32C639F4B3200"]
+			id: "5EE563E3C56C9DAA"
+			tasks: [
+				{
+					count: 36L
+					id: "578AF8984056B2F9"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					id: "2E59DE091F1F00FA"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
+			title: "Вёдра с жидкостями"
+			x: -23.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C95FF3125CA51B0"]
+			id: "3CF47C1F14BA5638"
+			rewards: [
+				{
+					id: "0C46FBA330E1AF0D"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "6E10D01F7290E8A9"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "&cАвтономный активатор&r симулирует действия игрока на блоках или существах на расстоянии ровно 2 блока.&r"
+			tasks: [{
+				id: "3847BE81AE3570EF"
+				item: "create:deployer"
+				type: "item"
+			}]
+			title: "Создайте &6автономный активатор"
+			x: -21.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["714F8265F43B7EB0"]
+			id: "556621DD4A40B410"
+			rewards: [{
+				count: 2
+				id: "52B11FD6382A052C"
+				item: "create:polished_rose_quartz"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.3d
+			subtitle: "Длиннохват — это инструмент, который можно использовать для увеличения дальности досягаемости игрока."
+			tasks: [{
+				id: "793F189739CD5AF3"
+				item: {
+					Count: 1
+					id: "create:extendo_grip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Создайте &cдлиннохват"
+			x: -16.25d
+			y: 6.500000000000001d
+		}
+		{
+			dependencies: ["1579C73B735F06F8"]
+			id: "58A9E6688CEAFCC9"
+			rewards: [
+				{
+					count: 16
+					id: "3D7B687A5B772BCE"
+					item: "create:track"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "32CDF3CE0363078F"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "&9Железнодорожный наблюдатель &rиспользуется для обнаружения проезжающих &9поездов&r."
+			tasks: [{
+				id: "3A120CC6DB8DB333"
+				item: "create:track_observer"
+				type: "item"
+			}]
+			title: "Создайте железнодорожный наблюдатель"
+			x: -20.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3091426850216D82"]
+			id: "4FAEFA9E5BC26DB0"
+			rewards: [{
+				count: 2
+				id: "7788B2A987DEF845"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Используя пары &2шестерён&r и &2больших шестерён&r, можно легко удвоить или уполовинить скорость вращения. &2Большую шестерню&r также можно подключить к &2регулятору скорости вращения&r, чтобы регулировать скорость более точно."
+			tasks: [{
+				count: 8L
+				id: "75523161D5ABE9F4"
+				item: "create:large_cogwheel"
+				type: "item"
+			}]
+			title: "Создайте &cбольшие шестерни"
+			x: -35.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["27CB2821D0EA92C5"]
+			id: "3091426850216D82"
+			rewards: [{
+				count: 2
+				id: "0A68680CF2A82FB2"
+				item: "create:shaft"
+				type: "item"
+			}]
+			subtitle: "&eИспользуется для соединения с другими &2шестернями &rи &2большими шестернями&r. Необходимо на раннем этапе для работы определённых машин, таких как &9механический смешиватель &rили &9жёрнов&r."
+			tasks: [{
+				count: 8L
+				id: "1D34411720C8A42D"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			title: "Создайте &cшестерни"
+			x: -35.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["714F8265F43B7EB0"]
+			description: ["&eНапример, дробление блока &cредстоуновой руды &rдаст &67 единиц редстоуна&r. &cГораздо больше&r, чем при простой добыче. Другие ресурсы могут потребовать дальнейшей обработки для полной реализации их выхода, например, &bпромывка&r."]
+			id: "5971EEEDACF7F8F6"
+			rewards: [{
+				count: 8
+				id: "2895D9A1B9ECCDFF"
+				item: "minecraft:iron_ore"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "&dВращающиеся колёса смерти. &rПредметы попадают внутрь и измельчаются на мелкие части. Также используются в процессе обработки руды для &aутроения вашего выхода&r."
+			tasks: [{
+				id: "32456128BAC24384"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			title: "Создайте дробильное колесо"
+			x: -17.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["032F76A1238E0BBB"]
+			id: "7F9EF7E0EDD9575B"
+			rewards: [{
+				count: 12
+				id: "4A3528E2403BD003"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "&6Сплющивает слитки в пластины&r, многие из которых необходимы для других блоков &dcreate&r. Также может использоваться для сжатия предметов в их &e2x2&r и &e3x3&r вариантах."
+			tasks: [{
+				id: "31E2F9B3C7CABB19"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			title: "Создайте &5механический пресс"
+			x: -30.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["70799237323247B7"]
+			id: "72314ADF63C4206B"
+			rewards: [{
+				count: 8
+				id: "2B89C47DB75DA7B8"
+				item: "create:copper_scaffolding"
+				type: "item"
+			}]
+			subtitle: "Масштабируемое решение для хранения &9жидкостей&r. Нельзя получить доступ вручную, жидкости нужно закачивать и выкачивать."
+			tasks: [{
+				id: "1EF69631377449E3"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			title: "Создайте&6 жидкостный бак"
+			x: -36.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D3D82498C3B327F"]
+			id: "4A964B78D5390B6A"
+			rewards: [{
+				count: 4
+				id: "0FFCBCF7F09DA861"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			subtitle: "&eДозаторы&r используются для наполнения &9контейнеров с жидкостью&r. В сами &eдозаторы&r жидкость должна закачиваться, так как к ним нельзя получить доступ вручную."
+			tasks: [{
+				id: "3F5DBA503D2822E5"
+				item: "create:spout"
+				type: "item"
+			}]
+			title: "Создайте &6дозатор"
+			x: -37.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5983C48519515105"]
+			hide_dependency_lines: true
+			id: "01A6C6F90581C91C"
+			rewards: [{
+				count: 16
+				id: "282D9C5BF51C24D5"
+				item: "create:track"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "&aЖелезнодорожные пути&r — это специальные блоки для поддержки &cпоездов&r."
+			tasks: [{
+				id: "2CF1881D6CFD01CE"
+				item: "create:track"
+				type: "item"
+			}]
+			title: "Создайте железнодорожный путь"
+			x: -20.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["4EB4838CCED125E2"]
+			id: "50190D2982688862"
+			rewards: [{
+				count: 2
+				id: "2D124400C47D6E7D"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			subtitle: "&bПилы&r могут производить\\nмного разных предметов. Их может быть сложно настроить с конвейерной системой, поэтому не забудьте нажать и удерживать &bW&r, чтобы «изучить», как их лучше всего настроить."
+			tasks: [{
+				id: "5297BEFB9235E70B"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			title: "Создайте &5механическую пилу"
+			x: -28.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4EB4838CCED125E2"]
+			id: "6FB73681F5C7FAB5"
+			rewards: [{
+				id: "1AAE047626BDAF10"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			subtitle: "&2Комбайны&r будут собирать и пересаживать урожай, над которым они проходят, будучи прикреплёнными к движущейся конструкции. Если вы добавите сундук, они также будут собирать и хранить урожай для вас."
+			tasks: [{
+				id: "06EAF87DDB132EAD"
+				item: "create:mechanical_harvester"
+				type: "item"
+			}]
+			title: "Создайте &5механический комбайн"
+			x: -28.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4EB4838CCED125E2"]
+			description: ["Как всегда, лучше всего нажать и удерживать &b'Размышление'&r , чтобы увидеть его в действии."]
+			id: "34346949C3804907"
+			rewards: [{
+				id: "560F7B22803181F3"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			subtitle: "&eПлуги&r могут убирать блоки без коллизии (например, факелы и т. д.) и создавать пашню из земли, но их лучшее применение — это &cвышвыривание существ&r."
+			tasks: [{
+				id: "7ACF44B9F688160A"
+				item: "create:mechanical_plough"
+				type: "item"
+			}]
+			title: "Создайте &5механический плуг"
+			x: -27.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4EB4838CCED125E2"]
+			id: "2231B9FF6BB3CEB7"
+			rewards: [{
+				id: "30AA9AB16732ED6A"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			subtitle: "Если вы хотите сделать &9карьер&r или &9туннельный бур&r, вам понадобится несколько таких. Прикрепите их к движущейся конструкции, и они будут добывать любой блок, на который наткнутся."
+			tasks: [{
+				id: "2CB830E4F6D22583"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			title: "Создайте &5механическую дрель"
+			x: -26.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4EB4838CCED125E2"]
+			description: ["Как это почти всегда бывает, всё становится намного понятнее, если «&bизучить&r», но в этом случае вам нужно будет нажать «&bСледующая сцена&r», чтобы посмотреть «&bОбработку предметов с помощью вентиляторов в корпусе&r», чтобы увидеть, как можно настроить процесс промывки и плавки руды."]
+			id: "0F8747577DC13AD3"
+			rewards: [{
+				id: "0C9B9C172AAE7CF5"
+				item: "create:crushed_raw_iron"
+				type: "item"
+			}]
+			subtitle: "&bВентиляторы в корпусе&r будут толкать или притягивать существ, чем быстрее вращение, тем дальше они будут толкать. Они также являются ключевыми в версии обработки руды от Create."
+			tasks: [{
+				id: "05B6A1F38874E8E5"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			title: "Создайте &5вентилятор в корпусе"
+			x: -27.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3F7061E2ADC7C638"]
+			id: "6605B29E0DA357ED"
+			rewards: [{
+				id: "1A4969E5B03C5715"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			subtitle: "&6Депо&r действуют как стационарный конвейер. Предметы, размещённые на них, могут быть обработаны или захвачены &dмеханическими руками&r."
+			tasks: [{
+				id: "6B11BCF3086AEEA8"
+				item: "create:depot"
+				type: "item"
+			}]
+			title: "Создайте депо"
+			x: -33.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"4AFCFC5B50979259"
+				"514C4EBE77DC871B"
+			]
+			description: [
+				"Вы можете задаться вопросом, зачем вам, чёрт возьми, нужен &c21 сборщик&r для выполнения этого квеста."
+				""
+				"Это потому, что Create предоставляет рецепты, которые больше, чем &eсетка 3x3&r, и, как вы увидите в следующем квесте, &9дробильные колёса&r требуют &c21 сборщика&r в массиве."
+				""
+				"Обязательно «&bизучите&r» сборщики, так как у них есть несколько нюансов, которые слишком сложны для &r&eпростого текста.&r"
+			]
+			id: "714F8265F43B7EB0"
+			rewards: [{
+				id: "14278C6FC024F6C3"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.75d
+			subtitle: "&cМеханические сборщики&r\\nиспользуются в массивах, где каждый сборщик действует как 1 ячейка на обычном &cверстаке&r."
+			tasks: [{
+				count: 21L
+				id: "33A00AE9CA10F99A"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			title: "Создайте механический сборщик"
+			x: -17.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["032F76A1238E0BBB"]
+			description: ["Щёлкните правой кнопкой мыши с &6гаечным ключом&r на &5цепном приводе&r, чтобы изменить его ориентацию."]
+			id: "476EB04C15CBB18D"
+			rewards: [{
+				id: "22129B0D4B10D866"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			subtitle: "Используется для передачи вращательной силы по линии, а также как простой метод перехода от &cгоризонтального&r к &dвертикальному&r направлению."
+			tasks: [{
+				id: "4F0D5BC8FE2B885B"
+				item: "create:encased_chain_drive"
+				type: "item"
+			}]
+			title: "Создайте цепной привод в корпусе"
+			x: -32.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["032F76A1238E0BBB"]
+			id: "6E5310F203CD58AD"
+			rewards: [{
+				id: "4A98103A52D34BFF"
+				item: "create:shaft"
+				type: "item"
+			}]
+			subtitle: "&eСцепления&r передают вращательную силу через себя по прямой линии, пока не будут запитаны &cредстоуном&r, который затем прерывает вращение на «&eвыходной&r» стороне."
+			tasks: [{
+				id: "52D021235FCD2041"
+				item: "create:clutch"
+				type: "item"
+			}]
+			title: "Создайте сцепление"
+			x: -31.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3F7061E2ADC7C638"]
+			description: ["Когда вращение меняется на противоположное, &6поршень&r втягивается. Наконечник должен быть сделан липким с помощью &aсгустка слизи&r, чтобы возвращать сдвинутые блоки обратно."]
+			id: "4FA1EFB03CA08432"
+			rewards: [{
+				id: "0F86D459ABD52856"
+				item: "minecraft:slime_ball"
+				type: "item"
+			}]
+			subtitle: "&cМеханический поршень&r — это поршень, который может толкать &aконструкции&r при питании &eвращательной силой&r. Для выдвижения поршень должен иметь на конце &dудлинители поршня&r, а также &eвращательную силу&r. Максимальная длина удлинителей — &964 блока&r."
+			tasks: [{
+				id: "1B98641175C9411F"
+				item: "create:mechanical_piston"
+				type: "item"
+			}]
+			title: "Создайте механический поршень"
+			x: -33.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3F7061E2ADC7C638"]
+			id: "67B1B1DBE5F20164"
+			rewards: [{
+				id: "32107380AD76DB38"
+				item: "minecraft:piston"
+				type: "item"
+			}]
+			subtitle: "&cМеханический поршень&r, но &6липкий&r и может тянуть блоки обратно."
+			tasks: [{
+				id: "7BFCC55C709FDC8F"
+				item: "create:sticky_mechanical_piston"
+				type: "item"
+			}]
+			title: "Создайте липкий механический поршень"
+			x: -32.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["032F76A1238E0BBB"]
+			description: ["Чем больше &eскорость вращения&r, тем быстрее будет двигаться &aтрос&r."]
+			id: "7DE4B065E2300B99"
+			rewards: [{
+				id: "12662C3E7B18F8A1"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			subtitle: "&5Лебёдки&r могут перемещать блоки или большие структуры &dвертикально&r."
+			tasks: [{
+				id: "584BFB2D80705390"
+				item: "create:rope_pulley"
+				type: "item"
+			}]
+			title: "Создайте лебёдку"
+			x: -33.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3F7061E2ADC7C638"]
+			id: "7DA373FCFC8F3F13"
+			rewards: [{
+				count: 4
+				id: "2F637697233742A0"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			subtitle: "&cКоробки передач&r обеспечивают самый компактный способ изменения горизонтального направления &eвращательной силы&r."
+			tasks: [{
+				id: "3CC305B6E6C7468B"
+				item: "create:gearbox"
+				type: "item"
+			}]
+			title: "Создайте коробку передач"
+			x: -32.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3F7061E2ADC7C638"]
+			id: "27E68E31EC21675B"
+			subtitle: "&aКаретки линейного привода&r перемещаются по &aнаправляющим валам&r и будут одновременно перемещать любые прикреплённые к ним блоки или склеенные суперклеем конструкции."
+			tasks: [{
+				id: "6490E48D6402BF1E"
+				item: "create:gantry_carriage"
+				type: "item"
+			}]
+			title: "Создайте каретку линейного привода"
+			x: -31.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3091426850216D82"]
+			id: "032F76A1238E0BBB"
+			rewards: [{
+				count: 10
+				id: "40FE5A6491E68374"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			subtitle: "Щёлкните правой кнопкой мыши или примените &5андезитовый сплав&r на обтёсанное бревно и добудьте его. Используется для множества различных рецептов или как декоративный корпус."
+			tasks: [{
+				count: 8L
+				id: "3F7061E2ADC7C638"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			title: "Добудьте &4андезитовые корпуса"
+			x: -32.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4AF3238551E346E1"]
+			id: "3CA28BDDCE5F1D71"
+			rewards: [
+				{
+					count: 16
+					id: "68393022F14D8DB1"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "70026D18BB7DEFD1"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "Ваш первый &cгенератор механического напряжения&r. Добавление большего количества &bколёс&r увеличивает &aпроизводительность&r. Чем больше сторон колеса покрывает вода, тем быстрее будет вращаться колесо и тем больше &aпроизводительность&r оно будет обеспечивать. Для генерации энергии учитывается только текущая вода или блоки-источники с колоннами пузырей."
+			tasks: [
+				{
+					count: 4L
+					id: "5D6E852FC35111A2"
+					item: "create:water_wheel"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "131A8C5B81ED264E"
+					item: "create:large_water_wheel"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "026EBF205A82E1AD"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
+			title: "Создайте &cводяные колёса"
+			x: -34.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["27CB2821D0EA92C5"]
+			id: "225465778A21D04B"
+			rewards: [{
+				count: 2
+				id: "7C31553D5F820258"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			subtitle: "&dМеханический ремень&r — это механический компонент, который передаёт вращение и перемещает предметы и существ. Для размещения ремня требуется как минимум два вала, и он может быть &6длиной до 20 блоков&r."
+			tasks: [{
+				count: 8L
+				id: "46E5F1ACA0E378D9"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			title: "Создайте &bмеханические ремни"
+			x: -36.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["27CB2821D0EA92C5"]
+			id: "159D8EFAC4AA0B7F"
+			rewards: [{
+				id: "53E02FEEE93AD593"
+				item: "create:zinc_ingot"
+				type: "item"
+			}]
+			subtitle: "Андезитовый шлюз используется для извлечения или вставки материалов в инвентари. Можно переключить с помощью гаечного ключа между извлечением и вставкой. Будет остановлен редстоун-сигналом и не может быть отфильтрован."
+			tasks: [{
+				id: "05A7BC1F8FC6864C"
+				item: "create:andesite_funnel"
+				type: "item"
+			}]
+			title: "Создайте &bандезитовые шлюзы"
+			x: -37.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["27CB2821D0EA92C5"]
+			id: "318593DEE275F999"
+			subtitle: "&6Гаечный ключ&r можно использовать, чтобы сделать в туннеле окна. Туннель не мешает обработке предметов на ремне &9вентилятором в корпусе&r, но останавливает поток воздуха за пределами ремня. &5Андезитовые туннели&r также можно использовать для отделения отдельных предметов из проходящих стопок на боковые выходы."
+			tasks: [{
+				id: "4E25BAE51F98C1E0"
+				item: "create:andesite_tunnel"
+				type: "item"
+			}]
+			title: "Создайте &bандезитовые туннели"
+			x: -38.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["27CB2821D0EA92C5"]
+			id: "233298CE83D842DF"
+			rewards: [{
+				count: 3
+				id: "1ECE86E95F0DE6FC"
+				item: "create:item_vault"
+				type: "item"
+			}]
+			subtitle: "&aХранилища&r используются для автоматического хранения и извлечения большого количества предметов. Однако к ним нельзя получить доступ вручную. &cАвтоматизируйте!&r"
+			tasks: [{
+				id: "0A7C362FC7982E53"
+				item: "create:item_vault"
+				type: "item"
+			}]
+			title: "Создайте &bхранилище предметов"
+			x: -39.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4AFCFC5B50979259"]
+			id: "5A22B4FE2588B4F5"
+			rewards: [{
+				id: "40B9C6EFCD628719"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Отлично подходит для перемещения предметов из одного места в другое в пределах досягаемости без необходимости в &dзамороченных конвейерных системах&r."
+			tasks: [{
+				id: "741BEF718A940BFF"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			title: "Создайте &6механическую руку"
+			x: -20.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["27E206948965351D"]
+			description: ["&5Андезит&r можно найти в больших жилах, в основном под землёй, по всему миру."]
+			id: "27CB2821D0EA92C5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04B6B5F4A156C297"
+				table_id: 28026836370523306L
+				type: "random"
+			}]
+			shape: "circle"
+			size: 1.5d
+			subtitle: "&5Андезитовый сплав&r — это материал, используемый в &5андезитовых корпусах&r и простых кинетических блоках, который служит отправной точкой к механическим компонентам &6Create&r."
+			tasks: [{
+				advancement: "create:andesite_alloy"
+				criterion: ""
+				id: "54DD51FBD15C2A46"
+				title: "Добудьте &8андезитовый сплав"
+				type: "advancement"
+			}]
+			x: -37.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3CF47C1F14BA5638"]
+			id: "4AFCFC5B50979259"
+			rewards: [{
+				count: 8
+				id: "0E756E49FDF115B5"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.35d
+			subtitle: "&aМеханизм точности&r — один из многих &9компонентов для крафта&r."
+			tasks: [{
+				id: "5B7C5AF942E7AF12"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			title: "Создайте &eмеханизм точности"
+			x: -19.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4EB4838CCED125E2"]
+			id: "50B220FE7B1E3EF4"
+			rewards: [{
+				id: "395C9966A9ACCE1A"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Точно так же, как ваш кухонный комбайн дома, когда предметы помещаются в чашу под ним, &dсмешиватель&r будет выдавать предметы, если найден действительный рецепт."
+			tasks: [
+				{
+					id: "06A162E04871BD2B"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "09C0022FAE09FE51"
+					item: "create:basin"
+					type: "item"
+				}
+			]
+			title: "Создайте &5механический смешиватель"
+			x: -25.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"50B220FE7B1E3EF4"
+				"000CB6AFBD03894F"
+			]
+			id: "5C95FF3125CA51B0"
+			rewards: [{
+				count: 4
+				id: "7B184567C1A83094"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.5d
+			subtitle: "Ключевой ингредиент для многих более сложных блоков в &6Create&r. Вы определённо захотите автоматизировать производство этого на каком-то этапе."
+			tasks: [{
+				id: "3A26B0F065CA934A"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			title: "Добудьте латунь"
+			x: -23.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["750A7380BDC80BA5"]
+			id: "216212CDA2B4AC1B"
+			shape: "circle"
+			subtitle: "Стороны &cлатунного туннеля&r могут быть &aотфильтрованы&r, чтобы пропускать только определённые предметы. Если доступно несколько выходов, предметы будут обрабатываться в соответствии с настройками туннеля, по умолчанию разделяясь."
+			tasks: [{
+				id: "1DE57CABD68F012F"
+				item: "create:brass_tunnel"
+				type: "item"
+			}]
+			title: "Создайте &6латунные туннели"
+			x: -23.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5C95FF3125CA51B0"]
+			id: "750A7380BDC80BA5"
+			rewards: [{
+				id: "1139EC56FEB9F57E"
+				item: {
+					Count: 1
+					id: "create:sand_paper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "То же, что и &5андезитовый шлюз&r, но, как и другие латунные машины, &cлатунный шлюз&r можно настроить на &aфильтрацию&r предметов. Он также может выдавать заданное количество предметов, а также принимать только предметы, сложенные до заданного количества."
+			tasks: [{
+				id: "6E088B80C8125C5D"
+				item: "create:brass_funnel"
+				type: "item"
+			}]
+			title: "Создайте &6латунные шлюзы"
+			x: -23.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5C95FF3125CA51B0"]
+			id: "4086D6899C60F723"
+			rewards: [{
+				id: "68DB4C9439F3EA43"
+				item: "create:zinc_ingot"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "&bУмные жёлобы&r ведут себя аналогично &cлатунным шлюзам&r. Их можно &aфильтровать&r для извлечения только определённых предметов и останавливать &cредстоун-сигналом&r. В отличие от шлюзов, они могут вставлять и извлекать одновременно, но могут функционировать только &dвертикально&r. При размещении под контейнером, в фильтре можно указать &bразмер стака&r. В противном случае можно указать только &bтип предмета&r."
+			tasks: [{
+				id: "3B314C9157D4ED89"
+				item: "create:smart_chute"
+				type: "item"
+			}]
+			title: "Создайте &6умные жёлобы"
+			x: -22.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"3CF47C1F14BA5638"
+				"4C07FF85FB34BEAC"
+				"5A22B4FE2588B4F5"
+			]
+			id: "514C4EBE77DC871B"
+			rewards: [{
+				count: 4
+				id: "019BECCA78C791FF"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.35d
+			subtitle: "Следующий уровень корпуса после &5андезитового&r. Щёлкните правой кнопкой мыши или примените &6латунный слиток&r на любое обтёсанное бревно."
+			tasks: [{
+				id: "731DFE620B721E09"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			title: "Создайте &eлатунный корпус"
+			x: -19.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4AFCFC5B50979259"]
+			id: "4C07FF85FB34BEAC"
+			rewards: [{
+				id: "5437D237FE6B9155"
+				item: "create:large_cogwheel"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Это идеальное устройство для контроля скорости вашей вращательной силы."
+			tasks: [{
+				id: "5C9C0DDC13C8DC9E"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			title: "Создайте&6 регулятор скорости вращения"
+			x: -19.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["514C4EBE77DC871B"]
+			id: "2EFA38D9491535EA"
+			rewards: [{
+				count: 2
+				id: "7B83268BCC3710D2"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			subtitle: "&eПередатчики информации&r могут считывать данные с блоков и выводить информацию на связанные дисплеи. Идеально для считывания инвентарей и т. д."
+			tasks: [{
+				id: "53B1D3530417A18F"
+				item: "create:display_link"
+				type: "item"
+			}]
+			title: "Создайте &6передатчик информации"
+			x: -21.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["514C4EBE77DC871B"]
+			id: "5E216C5F27D90883"
+			rewards: [{
+				id: "44CF88EFD705B69C"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			subtitle: "Если &dумный наблюдатель&r размещён лицевой стороной к контейнеру, механическому ремню, шлюзу или жидкостной трубе, он будет излучать &cредстоун-сигнал&r при обнаружении внутри предмета. Если к умному наблюдателю применён фильтр, он будет излучать редстоун-сигнал только при обнаружении предмета из фильтра."
+			tasks: [{
+				id: "1564F6709480D8C4"
+				item: "create:content_observer"
+				type: "item"
+			}]
+			title: "Создайте &6умный наблюдатель"
+			x: -21.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4EB4838CCED125E2"]
+			id: "000CB6AFBD03894F"
+			rewards: [{
+				count: 2
+				id: "525245BA01E8FB37"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			subtitle: "Щёлкните правой кнопкой мыши пустой &6горелкой всполохов&r по &6всполоху&r. &6Горелки всполоха&r используются для нагрева и перегрева &9чаш&r при смешивании. Их также можно использовать как источник тепла для котлов, питающих &3паровые двигатели&r. &bОчень важный инструмент для создания &cлатуни&r."
+			tasks: [{
+				id: "2DAC6316CBDA8B63"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			title: "Создайте &5горелки всполоха"
+			x: -25.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["27E206948965351D"]
+			id: "6B35AA85E5523742"
+			rewards: [{
+				count: 2
+				id: "5177F2577B800504"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Используются для просмотра различных деталей компонентов, таких как &aскорость, напряжение или производительность&r, когда надеты."
+			tasks: [{
+				id: "61B092858F6F856F"
+				item: "create:goggles"
+				type: "item"
+			}]
+			title: "Создайте &6инженерные очки"
+			x: -42.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5C95FF3125CA51B0"]
+			id: "6159A08598A35A1E"
+			shape: "circle"
+			subtitle: "&6Маховик —&r это декоративный блок. При подаче вращательной энергии &4маховик начинает вращаться&r. Кажется, он сохраняет инерцию, когда перестаёт получать энергию."
+			tasks: [{
+				id: "4B56CA812CE43239"
+				item: "create:flywheel"
+				type: "item"
+			}]
+			title: "Создайте &6маховик"
+			x: -22.5d
+			y: 4.0d
+		}
+		{
+			description: [
+				"&6&lДобро пожаловать в Create!"
+				""
+				"Create — это мод, предлагающий разнообразие инструментов и блоков для строительства, декора и эстетической автоматизации."
+				""
+				"Добавленные технологические элементы разработаны так, чтобы оставить игроку как можно больше свободы выбора. С Create игра не происходит внутри кучи интерфейсов, она бросает вам вызов на создание конструкций из анимированных компонентов, работающих вместе в множестве возможных аранжировок."
+			]
+			id: "27E206948965351D"
+			rewards: [
+				{
+					count: 5
+					id: "584C72D9E9E5BC79"
+					item: "farmersdelight:sweet_berry_cookie"
+					type: "item"
+				}
+				{
+					id: "46AF7C60C299D5A8"
+					item: "farmersdelight:milk_bottle"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				icon: "create:wrench"
+				id: "71FC0A40BF62B8EC"
+				title: "&6Create"
+				type: "checkmark"
+			}]
+			x: -40.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4AF3238551E346E1"]
+			description: [
+				"Прикреплённый к вращающейся структуре на подшипнике ветряной мельницы, ветряной парус будет производить энергию вращения с такой же эффективностью, как и шерсть. Для начала вращения необходимо не менее 8 парусов ветряной мельницы."
+				""
+				"Парусу ветряной мельницы не требуется суперклей или подключённые линейные или радиальные шасси."
+			]
+			id: "443AB424A916CAA7"
+			rewards: [{
+				count: 8
+				id: "28D94297BE8EBC94"
+				item: "minecraft:white_wool"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [
+				{
+					count: 8L
+					id: "04F33CEB78C307B0"
+					item: "create:white_sail"
+					type: "item"
+				}
+				{
+					id: "7B7FF8E82E0ACC40"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+			]
+			title: "Создайте &cпаруса"
+			x: -35.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1A513CE71070D2D3"]
+			description: ["Так же, как и с &5андезитовым корпусом&r, вы можете щёлкнуть правой кнопкой мыши или применить &6медный слиток&r на любое обтёсанное бревно."]
+			id: "7D3D82498C3B327F"
+			rewards: [{
+				count: 4
+				id: "0AC321BBD0312388"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			subtitle: "&6Медь&r — это предмет в Create для работы с жидкостями."
+			tasks: [{
+				id: "3C4CB742CE044EEF"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			title: "Создайте &6медный корпус"
+			x: -39.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7D3D82498C3B327F"]
+			id: "28894A6E8BD319CD"
+			rewards: [{
+				count: 2
+				id: "2EED9CD4A258A695"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			subtitle: "Можно использовать для осушения или заполнения любой большой области &9жидкостью&r. Если использовать на достаточно большом озере &cлавы&r, он будет считать его бесконечным источником &cлавы&r. Удобно!"
+			tasks: [{
+				id: "1342861684E8D000"
+				item: "create:hose_pulley"
+				type: "item"
+			}]
+			title: "Создайте &6катушку со шлангом"
+			x: -39.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7D3D82498C3B327F"]
+			id: "1398A4F9E1F3CB1B"
+			subtitle: "Осушители предметов&r позволяют вручную выливать вёдра, содержимое которых затем можно закачать в баки или другие жидкостные машины. &d&fКатушка со шлангом&r&c позволяет либо всасывать большой объём жидкости, либо выливать большое количество жидкости в окружающую среду. Они важны для сбора природных ресурсов."
+			tasks: [{
+				id: "1E9B3DF979040C1B"
+				item: "create:item_drain"
+				type: "item"
+			}]
+			title: "Создайте&6 осушитель предметов"
+			x: -40.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7D3D82498C3B327F"]
+			id: "1BCCB3486CD86029"
+			rewards: [{
+				id: "1114A8321B8B5731"
+				item: "create:chute"
+				type: "item"
+			}]
+			subtitle: "Предоставляет способ взаимодействия с &dдвижущимися конструкциями&r для передачи &4жидкостей через модный метод стыковки&r. Вам определённо захочется &bизучить&e это."
+			tasks: [{
+				id: "05E89D0B433B7789"
+				item: "create:portable_fluid_interface"
+				type: "item"
+			}]
+			title: "Создайте &6портативный жидкостный интерфейс"
+			x: -40.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7D3D82498C3B327F"]
+			id: "23EF98480984F6DE"
+			rewards: [{
+				id: "24E0D78931CDDC3E"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			subtitle: "&9Снимайте чары с предметов&r и собирайте опыт в виде жидкости. Если игрок встанет на него, опыт также будет извлекаться."
+			tasks: [{
+				id: "24F2EA75806EE45A"
+				item: "create_enchantment_industry:disenchanter"
+				type: "item"
+			}]
+			title: "Создайте &6чаросъёмник"
+			x: -39.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D3D82498C3B327F"]
+			id: "70529DE17C4E2F5A"
+			rewards: [{
+				id: "0FF0D62BD93BC050"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			subtitle: "Копируйте ваши написанные и зачарованные книги, используя &bжидкий опыт&r или &2чернила&r."
+			tasks: [{
+				id: "15200420E9F6106F"
+				item: "create_enchantment_industry:printer"
+				type: "item"
+			}]
+			title: "Создайте &6печатный станок"
+			x: -40.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["032F76A1238E0BBB"]
+			id: "5186D850E1F139CB"
+			rewards: [{
+				count: 4
+				id: "6409FEFDFAC18D7C"
+				item: "minecraft:ink_sac"
+				type: "item"
+			}]
+			subtitle: "В основном используется для измельчения растений в &bкрасители&r, пшеницы в &bпшеничную муку&r и булыжника в &bгравий&r."
+			tasks: [{
+				id: "16EF7895FC10B662"
+				item: "create:millstone"
+				type: "item"
+			}]
+			title: "Создайте жёрнов"
+			x: -31.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["70529DE17C4E2F5A"]
+			id: "26BB6886D34DAAAC"
+			rewards: [{
+				icon: "vitalize:experience_cubed"
+				id: "6DF04AC672ADD823"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "Используется, чтобы заставить &6всполохов-чародеев&r кипеть и применять чары на 1 уровень выше установленных."
+			tasks: [{
+				id: "2011601B13E25378"
+				item: "create_enchantment_industry:hyper_experience_bottle"
+				type: "item"
+			}]
+			title: "Создайте пузырёк гиперопыта"
+			x: -40.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3F7061E2ADC7C638"]
+			id: "16D5DB61567D65BA"
+			rewards: [{
+				count: 4
+				id: "069F7625B29E541E"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			subtitle: "&aСпидометр&r измеряет скорость &eвращательной силы&r."
+			tasks: [{
+				id: "76E0DD53711FDF69"
+				item: "create:speedometer"
+				type: "item"
+			}]
+			title: "Создайте спидометр"
+			x: -32.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["3F7061E2ADC7C638"]
+			id: "0997C666FC84BF8A"
+			rewards: [{
+				id: "42DE4DE05BCC9B1B"
+				item: "minecraft:compass"
+				type: "item"
+			}]
+			subtitle: "&bСтрессометр&r используется для измерения количества &cнапряжения&r на &aвалу&r. Это напряжение является нагрузкой системы."
+			tasks: [{
+				id: "380832CB50DD141C"
+				item: "create:stressometer"
+				type: "item"
+			}]
+			title: "Создайте стрессометр"
+			x: -33.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["27E206948965351D"]
+			description: ["&dСуперклей&r также можно держать в левой руке при размещении блоков, чтобы автоматически склеивать каждый блок по отдельности. Однако каждое использование расходует прочность."]
+			id: "79859846C0DCFF9A"
+			rewards: [{
+				id: "77B6B0248A0C3BF5"
+				item: {
+					Count: 1
+					id: "create:super_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "&dСуперклей&r скрепляет структуры в &aконструкциях&r. &eЩёлкните правой кнопкой мыши&r по области, чтобы начать её выделение. &eЩёлкните с зажатым Shift&r или прокрутите колесико мыши, чтобы убрать выделение. &eЩёлкните правой кнопкой мыши&r по второму блоку, соединённому через другие блоки, чтобы завершить выделение."
+			tasks: [{
+				id: "4476B5B5596AC4C2"
+				item: {
+					Count: 1
+					id: "create:super_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Создайте &2суперклей"
+			x: -42.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1579C73B735F06F8"]
+			id: "4494A3A226BE6D86"
+			rewards: [
+				{
+					count: 16
+					id: "6D9A9A719042CB11"
+					item: "create:track"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "1A6071F5E7E11D9C"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "Железнодорожные светофоры используются для управления движением поездов, не управляемых игроками."
+			tasks: [{
+				id: "1145A99EF98384AF"
+				item: "create:track_signal"
+				type: "item"
+			}]
+			title: "Создайте железнодорожный светофор"
+			x: -17.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["7F9EF7E0EDD9575B"]
+			id: "10978A5E14B2D855"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "552412FC341510A9"
+				table_id: 2645938118790146101L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				count: 69L
+				id: "315F68B664E24C2D"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:plates"
+					}
+				}
+				title: "Пластины"
+				type: "item"
+			}]
+			title: "Пластины"
+			x: -30.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3E0E5DE9A5C07183"]
+			description: [
+				"- Схематика и перо:"
+				"Используется для сохранения чертежей структуры."
+				""
+				"- Пустая схематика:"
+				"Используется как ингредиент для рецепта и для записи на столе для схематик."
+			]
+			id: "5D39ABA701DF48B6"
+			subtitle: "Нажмите"
+			tasks: [
+				{
+					id: "75F493BE8D522DC7"
+					item: "create:empty_schematic"
+					type: "item"
+				}
+				{
+					id: "224E62A11E522C80"
+					item: "create:schematic_and_quill"
+					type: "item"
+				}
+			]
+			title: "Создайте схематики"
+			x: -31.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["27E206948965351D"]
+			id: "57D5D3869593B56D"
+			shape: "circle"
+			subtitle: "&cГаечный ключ&r — это инструмент, используемый для вращения, разборки и настройки компонентов."
+			tasks: [{
+				id: "73688E69CE8F85C4"
+				item: "create:wrench"
+				type: "item"
+			}]
+			title: "Создайте &6гаечный ключ"
+			x: -40.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["36129D7A46CC6F6D"]
+			id: "292598D40E49F3DD"
+			subtitle: "Расписания поездов используются для инструктирования машинистов поездов, не являющихся игроками."
+			tasks: [{
+				id: "3FF2D9CBA0063A04"
+				item: "create:schedule"
+				type: "item"
+			}]
+			title: "Создайте расписание поезда"
+			x: -19.0d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"36129D7A46CC6F6D"
+				"5983C48519515105"
+			]
+			id: "5F049120548BA49F"
+			shape: "circle"
+			tasks: [
+				{
+					id: "19A8CB034558E296"
+					item: "create:train_door"
+					type: "item"
+				}
+				{
+					id: "49D39A1A6D5F5F41"
+					item: "create:train_trapdoor"
+					type: "item"
+				}
+			]
+			title: "Двери для поезда"
+			x: -17.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["43B32C639F4B3200"]
+			id: "3FDAA10BFCD225AC"
+			tasks: [{
+				count: 9L
+				id: "3CE77FC02139DD9D"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			title: "Горелки всполоха"
+			x: -22.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["43B32C639F4B3200"]
+			id: "07C54DF4AD4DCA2D"
+			tasks: [
+				{
+					id: "0748A951D46D5203"
+					item: "create:andesite_funnel"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "54EC2E3A079D0C00"
+					item: "create:brass_funnel"
+					type: "item"
+				}
+				{
+					id: "02EEB1197A29A87A"
+					item: "minecraft:chest"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "30DF643616CA3551"
+					item: "create:item_vault"
+					type: "item"
+				}
+				{
+					id: "3AD36664BA862436"
+					item: "create:mechanical_arm"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4D687117BB716D52"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+				{
+					id: "4951A436067BF7D6"
+					item: "create:belt_connector"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "45436C75BEDC27A6"
+					item: "create:shaft"
+					type: "item"
+				}
+			]
+			title: "Автоматизация"
+			x: -25.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["43B32C639F4B3200"]
+			id: "345FE4F9F8F2230D"
+			tasks: [
+				{
+					id: "615D989804EF673E"
+					item: "create:clutch"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6BE64CB9039C9267"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "402FBB95A3BA30A4"
+					item: "create:depot"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "48674FF78007D4E3"
+					item: "create:encased_chain_drive"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "284ABFADE89A55FB"
+					item: "create:gearbox"
+					type: "item"
+				}
+				{
+					id: "0B9629F6EF8CFA84"
+					item: "create:hand_crank"
+					type: "item"
+				}
+				{
+					id: "4858916ACEC1CA86"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					id: "5B82291C371CD9AA"
+					item: "create:pulse_extender"
+					type: "item"
+				}
+				{
+					id: "3547E3D8976E889E"
+					item: "create:rotation_speed_controller"
+					type: "item"
+				}
+				{
+					id: "6044FC9CF2EA05D5"
+					item: "create:stressometer"
+					type: "item"
+				}
+			]
+			title: "Кинетические компоненты"
+			x: -25.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["43B32C639F4B3200"]
+			id: "05A82B6ED73CA78D"
+			tasks: [
+				{
+					count: 6L
+					id: "23989CB7F94EA985"
+					item: "minecraft:glass"
+					type: "item"
+				}
+				{
+					id: "1DE16F963C26A3E3"
+					item: "minecraft:polished_blackstone_button"
+					type: "item"
+				}
+				{
+					id: "3E71A512A8C2043A"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "49FEAB371A304181"
+					item: "minecraft:stone"
+					type: "item"
+				}
+				{
+					id: "625D2ECA7DF531EA"
+					item: "minecraft:oak_sign"
+					type: "item"
+				}
+			]
+			title: "Декоративные блоки"
+			x: -25.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2EFA38D9491535EA"]
+			id: "69D77F04608EE620"
+			rewards: [{
+				count: 3
+				id: "035856A552EBA8A8"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			subtitle: "&4Механические табло&r — это масштабируемая альтернатива табличке."
+			tasks: [{
+				id: "111169691910A06A"
+				item: "create:display_board"
+				type: "item"
+			}]
+			title: "Создайте механическое табло"
+			x: -22.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["714F8265F43B7EB0"]
+			icon: "tfmg:blast_furnace_output"
+			id: "76676C05D7520F84"
+			rewards: [{
+				count: 6
+				id: "7CB78F6D09192E64"
+				item: "tfmg:steel_ingot"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [
+				{
+					id: "3F8B9C1661882FD7"
+					item: "tfmg:blast_furnace_output"
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "245B70DBBCBCA729"
+					item: "tfmg:fireproof_bricks"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0B31C6A59A4D3525"
+					item: "tfmg:fireproof_brick_reinforcement"
+					type: "item"
+				}
+			]
+			title: "Настройте &6промышленную плавку"
+			x: -14.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["76676C05D7520F84"]
+			id: "5050C4FFC913F068"
+			rewards: [{
+				count: 2
+				id: "23D7A9B544B1B2D2"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A5E25202A1F23F2"
+				item: "tfmg:molten_slag_bucket"
+				type: "item"
+			}]
+			title: "Добудьте &6расплавленный шлак"
+			x: -12.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["76676C05D7520F84"]
+			id: "765F48F382B024EB"
+			rewards: [{
+				count: 2
+				id: "7FF4A07A9D92F3E5"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D2661A3907E7003"
+				item: "tfmg:molten_steel_bucket"
+				type: "item"
+			}]
+			title: "Добудьте &6расплавленную сталь"
+			x: -12.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"5050C4FFC913F068"
+				"765F48F382B024EB"
+			]
+			description: [""]
+			id: "60C739C6251C6816"
+			rewards: [{
+				count: 6
+				id: "2DC78ECCD88DA8F2"
+				item: "tfmg:steel_ingot"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.75d
+			tasks: [{
+				id: "5B73D5B8200B5A32"
+				item: "tfmg:steel_ingot"
+				type: "item"
+			}]
+			title: "Добудьте &7сталь"
+			x: -10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5050C4FFC913F068"]
+			id: "4EAB9876D927E3CD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "563BDAD9727BF386"
+				table_id: 28026836370523306L
+				type: "random"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "7A087974FECD247F"
+				item: "tfmg:slag"
+				type: "item"
+			}]
+			title: "Добудьте шлак"
+			x: -13.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["60C739C6251C6816"]
+			icon: "tfmg:oil_deposit"
+			id: "371E1C7DAA63A59C"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7C65FC31AC7606B0"
+				type: "checkmark"
+			}]
+			title: "Фабрика должна расти!"
+			x: -10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["371E1C7DAA63A59C"]
+			id: "29C2878B6575DFE5"
+			tasks: [{
+				count: 256L
+				id: "746CC5C2F36CEBD9"
+				item: "tfmg:galena"
+				type: "item"
+			}]
+			title: "Добудьте галенит"
+			x: -11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["371E1C7DAA63A59C"]
+			id: "54A893FD2A4C9991"
+			tasks: [{
+				count: 256L
+				id: "1D1F9B14586971E0"
+				item: "tfmg:bauxite"
+				type: "item"
+			}]
+			title: "Добудьте боксит"
+			x: -11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["371E1C7DAA63A59C"]
+			id: "404477B34540B5AD"
+			tasks: [{
+				count: 256L
+				id: "20B0B551BC8D14C5"
+				item: "tfmg:sulfur"
+				type: "item"
+			}]
+			title: "Добудьте серу"
+			x: -10.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["371E1C7DAA63A59C"]
+			id: "6419BBCA809589E7"
+			tasks: [{
+				count: 256L
+				id: "3ADB0845E7C863DC"
+				item: "tfmg:lignite"
+				type: "item"
+			}]
+			title: "Добудьте бурый уголь"
+			x: -8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["371E1C7DAA63A59C"]
+			id: "70ED8CCE1C3606FD"
+			tasks: [{
+				count: 256L
+				id: "6C55FD6B3F38EFC6"
+				item: "tfmg:cement"
+				type: "item"
+			}]
+			title: "Добудьте цемент"
+			x: -8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["371E1C7DAA63A59C"]
+			id: "0739F2E9E2E1D87F"
+			tasks: [{
+				count: 256L
+				id: "400EEBDC69193997"
+				item: "tfmg:fireclay"
+				type: "item"
+			}]
+			title: "Добудьте огнеупорную глину"
+			x: -9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["60C739C6251C6816"]
+			id: "00584ABF4308F8D6"
+			rewards: [{
+				id: "4550EF3DE8D9FDE3"
+				item: "tfmg:steel_block"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.3d
+			subtitle: "Используется для начала добычи &8нефти!"
+			tasks: [
+				{
+					id: "6FD001C663C84CB3"
+					item: "tfmg:machine_input"
+					type: "item"
+				}
+				{
+					id: "388B3C3BFC3B6F63"
+					item: "tfmg:pumpjack_crank"
+					type: "item"
+				}
+				{
+					id: "37CC5B621DDA6819"
+					item: "tfmg:pumpjack_base"
+					type: "item"
+				}
+				{
+					id: "1DF6B5F093142C3B"
+					item: "tfmg:pumpjack_hammer"
+					type: "item"
+				}
+			]
+			title: "Постройте &8насос для сырой нефти"
+			x: -9.100000000000001d
+			y: 7.15d
+		}
+		{
+			dependencies: ["60C739C6251C6816"]
+			id: "6B0E30C741162AF3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1945EA06A7EFFADB"
+				table_id: 28026836370523306L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.35d
+			tasks: [{
+				id: "1A09BC963C9A4DC6"
+				item: "tfmg:steel_mechanism"
+				type: "item"
+			}]
+			title: "Создайте &7стальной механизм"
+			x: -12.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6B0E30C741162AF3"]
+			id: "34C69CC2874A3B19"
+			rewards: [{
+				count: 2
+				id: "61F4DFCF9B02D349"
+				item: "tfmg:steel_ingot"
+				type: "item"
+			}]
+			subtitle: "Используется для поиска &eбензина"
+			tasks: [{
+				id: "384C83E9ED899377"
+				item: "tfmg:surface_scanner"
+				type: "item"
+			}]
+			title: "Создайте &6сканер поверхности"
+			x: -14.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6B0E30C741162AF3"]
+			id: "16EB36B6AAE27EA5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4852E472FD58FFEC"
+				table_id: 28026836370523306L
+				type: "random"
+			}]
+			subtitle: "Выстреливает 4-мя вашими homegrown &2овощами&r во врагов. Может работать от давления воздуха из &6медного баллона"
+			tasks: [{
+				id: "0F40DB27E0D46DCD"
+				item: {
+					Count: 1
+					id: "tfmg:quad_potato_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Создайте &8четырёхствольную картофельную пушку"
+			x: -14.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6B0E30C741162AF3"]
+			id: "1AF78CC2D548F05E"
+			rewards: [{
+				id: "3BB4E3D51A5EB04B"
+				item: "tfmg:steel_block"
+				type: "item"
+			}]
+			subtitle: "Каждый выходной блок предоставляет один из побочных продуктов &8нефти"
+			tasks: [
+				{
+					id: "58E88C89722677A8"
+					item: "tfmg:steel_distillation_controller"
+					type: "item"
+				}
+				{
+					id: "1881AF8A8A9BC468"
+					item: "tfmg:steel_distillation_output"
+					type: "item"
+				}
+			]
+			title: "Создайте &8стальной контроллер&r\\ и &8стальной выход дистилляционной башни"
+			x: -14.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6B0E30C741162AF3"]
+			id: "1B29AB13E2F285C5"
+			rewards: [{
+				count: 2
+				id: "154B4032C884EE10"
+				item: "tfmg:steel_ingot"
+				type: "item"
+			}]
+			subtitle: "Делает &fмагнитные слитки&r из &8стали"
+			tasks: [{
+				id: "7BC0A8BB7B41BD70"
+				item: "tfmg:polarizer"
+				type: "item"
+			}]
+			title: "Создайте &6поляризатор"
+			x: -13.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6B0E30C741162AF3"]
+			id: "37C3A6B2B67EC4AB"
+			rewards: [{
+				count: 2
+				id: "3D2AF1E9DC537051"
+				item: "scguns:diamond_steel_ingot"
+				type: "item"
+			}]
+			subtitle: "бррр"
+			tasks: [
+				{
+					id: "0759DB40A6A5E0DA"
+					item: "tfmg:gasoline_engine"
+					type: "item"
+				}
+				{
+					id: "3A19DAFE285ED48B"
+					item: "tfmg:gasoline_engine_back"
+					type: "item"
+				}
+				{
+					id: "4236A51FCF492AC1"
+					item: "tfmg:lpg_engine"
+					type: "item"
+				}
+				{
+					id: "2F095B2BE3D43996"
+					item: "tfmg:lpg_engine_back"
+					type: "item"
+				}
+				{
+					id: "32F32A175902D49C"
+					item: "tfmg:turbine_engine"
+					type: "item"
+				}
+				{
+					id: "03C03B1DB43DA059"
+					item: "tfmg:turbine_engine_back"
+					type: "item"
+				}
+			]
+			title: "Создайте все &8двигатели"
+			x: -12.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6B0E30C741162AF3"]
+			id: "32C0B3DD3F6008CD"
+			rewards: [{
+				count: 2
+				id: "1388289983E1FB7A"
+				item: "tfmg:steel_block"
+				type: "item"
+			}]
+			subtitle: "&8Дизельные двигатели&r собираются путём размещения вала перед блоком дизельного двигателя"
+			tasks: [
+				{
+					id: "489BB9CDB6F5DA41"
+					item: "tfmg:diesel_engine"
+					type: "item"
+				}
+				{
+					id: "373506CB5ADA59F5"
+					item: "tfmg:diesel_engine_expansion"
+					type: "item"
+				}
+			]
+			title: "Создайте &8дизельный двигатель"
+			x: -11.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6B0E30C741162AF3"]
+			id: "62D03F1C0EBA61CB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6BC54220924231CF"
+				table_id: 28026836370523306L
+				type: "random"
+			}]
+			subtitle: "Радиальные двигатели — это особый тип &eдвигателя&7, который не требует выхлопного блока и имеет вал с &f&lобеих &rсторон."
+			tasks: [{
+				id: "701A129851E47A29"
+				item: "tfmg:radial_engine"
+				type: "item"
+			}]
+			title: "Создайте &8радиальный двигатель"
+			x: -10.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6B0E30C741162AF3"]
+			id: "2FB9F4BABADA9640"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "05FED711F600EDBE"
+				table_id: 28026836370523306L
+				type: "random"
+			}]
+			subtitle: "&6Коробка передач&r\\, но сделанная из &8стали"
+			tasks: [{
+				id: "4F495EFE7CB8F31E"
+				item: "tfmg:steel_gearbox"
+				type: "item"
+			}]
+			title: "Создайте &8стальную коробку передач"
+			x: -10.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["60C739C6251C6816"]
+			id: "16A27DA086F2A1EF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7ABD66C16D94F242"
+				table_id: 28026836370523306L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.3d
+			subtitle: "Сжигает горючие &8газы &rи &8жидкости&r, чтобы выпустить струю пламени и сжечь ваших врагов"
+			tasks: [{
+				id: "4BFA3E0D5C1A34F1"
+				item: {
+					Count: 1
+					id: "tfmg:flamethrower"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Создайте &8огнемёт"
+			x: -7.800000000000001d
+			y: 7.15d
+		}
+		{
+			dependencies: ["60C739C6251C6816"]
+			id: "1330B049B133E76D"
+			subtitle: "Используется для &6плавки&7 &8металлов"
+			tasks: [{
+				advancement: "createmetallurgy:foundry_basin"
+				criterion: ""
+				id: "4CF0C795FC0A87FD"
+				type: "advancement"
+			}]
+			title: "Создайте &8улучшенную плавильню"
+			x: -7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["60C739C6251C6816"]
+			id: "5247625F909B189E"
+			subtitle: "Использует &eвращательную силу&7 для шлифовки всего, что находится над ней"
+			tasks: [{
+				advancement: "createmetallurgy:belt_grinder"
+				criterion: ""
+				id: "292F5EB3236E46D3"
+				type: "advancement"
+			}]
+			title: "Создайте &6механическую ленточную шлифовальную машину"
+			x: -7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"1330B049B133E76D"
+				"5247625F909B189E"
+			]
+			id: "3B2FC480A4F23338"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Изготавливается из &8вольфрамитовой руды"
+			tasks: [{
+				advancement: "createmetallurgy:tungsten_age"
+				criterion: ""
+				id: "44333F1FD1EDB26A"
+				type: "advancement"
+			}]
+			title: "Добудьте &2вольфрамовый слиток"
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3B2FC480A4F23338"]
+			id: "06516C43749EC085"
+			tasks: [{
+				advancement: "createmetallurgy:light_bulb"
+				criterion: ""
+				id: "4BF612C3346DB1C6"
+				type: "advancement"
+			}]
+			title: "Создайте &eлампочку"
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3B2FC480A4F23338"]
+			id: "3B53448C139BEA33"
+			tasks: [{
+				advancement: "createmetallurgy:foundry_mixer"
+				criterion: ""
+				id: "3579652072986F12"
+				type: "advancement"
+			}]
+			title: "Создайте &6литейный смеситель"
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3B2FC480A4F23338"]
+			id: "77B458C93AA3B8E4"
+			subtitle: "Используется для изготовления &8графитовых форм для выплавки"
+			tasks: [{
+				advancement: "createmetallurgy:graphite"
+				criterion: ""
+				id: "71306020D1F3637B"
+				type: "advancement"
+			}]
+			title: "Создайте &8графит"
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3B2FC480A4F23338"]
+			id: "4E63B9DD0C2FE109"
+			subtitle: "Изготовлено на &8отливочном столе"
+			tasks: [{
+				advancement: "createmetallurgy:graphite_molds"
+				criterion: ""
+				id: "4A828943B014E536"
+				type: "advancement"
+			}]
+			title: "Добудьте любую &8графитовую форму для выплавки"
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3B2FC480A4F23338"]
+			id: "067E70E0502C06FD"
+			subtitle: "&8Отливочные блоки&7 можно использовать для охлаждения &6расплавленных металлов&7 до определённой формы. В то время как &8отливочный стол&7 используется для отливки предметов с помощью &8графитовых форм"
+			tasks: [{
+				advancement: "createmetallurgy:casting_blocks"
+				criterion: ""
+				id: "5B191676E7FAA37B"
+				type: "advancement"
+			}]
+			title: "Создайте &8отливочную чашу&7 или &8отливочный стол"
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3B2FC480A4F23338"]
+			id: "44C8B546EBF6C2F3"
+			tasks: [{
+				advancement: "createmetallurgy:melting_dusts"
+				criterion: ""
+				id: "07F93B77E2ED06D9"
+				type: "advancement"
+			}]
+			title: "Добудьте негрязную &eминеральную пыль"
+			x: -5.5d
+			y: 6.5d
+		}
+	]
+	title: " &eCreate"
+}
